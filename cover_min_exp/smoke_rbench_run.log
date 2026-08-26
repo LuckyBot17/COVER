@@ -1,0 +1,9 @@
+[info] 5 claims, 0 already scored
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00, 12.25it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00, 13.31it/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.48, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+[info] model loaded on cuda; yes_id=3869 no_id=1939
+[info] kept operators: ['d_id:o', 'd_id:s', 'd_id:so', 'd_inv:o', 'd_inv:s', 'd_inv:so']
+[info] calibration b: {'d_id:s': 0.75, 'd_id:o': 1.406, 'd_id:so': 2.656, 'd_inv:s': 0.344, 'd_inv:o': 0.125, 'd_inv:so': 0.609}
+[info] calibration g: {'d_id:s': 3.07, 'd_id:o': 3.234, 'd_id:so': 1.445, 'd_inv:s': 1.477, 'd_inv:o': 1.266, 'd_inv:so': 1.211}
+[info] eval claims: 2 (true 1, false 1)
+too few eval claims

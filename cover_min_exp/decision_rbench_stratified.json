@@ -1,0 +1,374 @@
+{
+  "non-spatial_lam0": [
+    {
+      "stratum": "\u4f4e",
+      "score": "COVER_A",
+      "n_conf_true": 48,
+      "n_true": 128,
+      "n_false": 36,
+      "coverage": 0.9531,
+      "risk": 0.9722,
+      "q": 1.0092
+    },
+    {
+      "stratum": "\u4f4e",
+      "score": "raw_conf",
+      "n_conf_true": 48,
+      "n_true": 128,
+      "n_false": 36,
+      "coverage": 0.9609,
+      "risk": 1.0,
+      "q": 1.7031
+    },
+    {
+      "stratum": "\u4e2d",
+      "score": "COVER_A",
+      "n_conf_true": 58,
+      "n_true": 165,
+      "n_false": 20,
+      "coverage": 0.9091,
+      "risk": 0.75,
+      "q": 0.0191
+    },
+    {
+      "stratum": "\u4e2d",
+      "score": "raw_conf",
+      "n_conf_true": 58,
+      "n_true": 165,
+      "n_false": 20,
+      "coverage": 0.9636,
+      "risk": 0.95,
+      "q": -3.0156
+    },
+    {
+      "stratum": "\u9ad8",
+      "score": "COVER_A",
+      "n_conf_true": 64,
+      "n_true": 190,
+      "n_false": 11,
+      "coverage": 0.9947,
+      "risk": 1.0,
+      "q": 0.1095
+    },
+    {
+      "stratum": "\u9ad8",
+      "score": "raw_conf",
+      "n_conf_true": 64,
+      "n_true": 190,
+      "n_false": 11,
+      "coverage": 0.9368,
+      "risk": 0.8182,
+      "q": -4.7344
+    }
+  ],
+  "non-spatial_lam1": [
+    {
+      "stratum": "\u4f4e",
+      "score": "COVER_A",
+      "n_conf_true": 48,
+      "n_true": 128,
+      "n_false": 36,
+      "coverage": 0.9453,
+      "risk": 0.8889,
+      "q": 1.5456
+    },
+    {
+      "stratum": "\u4f4e",
+      "score": "raw_conf",
+      "n_conf_true": 48,
+      "n_true": 128,
+      "n_false": 36,
+      "coverage": 0.9609,
+      "risk": 1.0,
+      "q": 1.7031
+    },
+    {
+      "stratum": "\u4e2d",
+      "score": "COVER_A",
+      "n_conf_true": 58,
+      "n_true": 165,
+      "n_false": 20,
+      "coverage": 0.8909,
+      "risk": 0.85,
+      "q": 0.6769
+    },
+    {
+      "stratum": "\u4e2d",
+      "score": "raw_conf",
+      "n_conf_true": 58,
+      "n_true": 165,
+      "n_false": 20,
+      "coverage": 0.9636,
+      "risk": 0.95,
+      "q": -3.0156
+    },
+    {
+      "stratum": "\u9ad8",
+      "score": "COVER_A",
+      "n_conf_true": 64,
+      "n_true": 190,
+      "n_false": 11,
+      "coverage": 0.9316,
+      "risk": 0.8182,
+      "q": 0.5438
+    },
+    {
+      "stratum": "\u9ad8",
+      "score": "raw_conf",
+      "n_conf_true": 64,
+      "n_true": 190,
+      "n_false": 11,
+      "coverage": 0.9368,
+      "risk": 0.8182,
+      "q": -4.7344
+    }
+  ],
+  "all_lam0": [
+    {
+      "stratum": "\u4f4e",
+      "score": "COVER_A",
+      "n_conf_true": 63,
+      "n_true": 212,
+      "n_false": 67,
+      "coverage": 0.9481,
+      "risk": 0.9104,
+      "q": 0.8283
+    },
+    {
+      "stratum": "\u4f4e",
+      "score": "raw_conf",
+      "n_conf_true": 63,
+      "n_true": 212,
+      "n_false": 67,
+      "coverage": 0.9623,
+      "risk": 0.8657,
+      "q": 1.0156
+    },
+    {
+      "stratum": "\u4e2d",
+      "score": "COVER_A",
+      "n_conf_true": 80,
+      "n_true": 240,
+      "n_false": 32,
+      "coverage": 0.8583,
+      "risk": 0.75,
+      "q": -0.0349
+    },
+    {
+      "stratum": "\u4e2d",
+      "score": "raw_conf",
+      "n_conf_true": 80,
+      "n_true": 240,
+      "n_false": 32,
+      "coverage": 0.9083,
+      "risk": 0.8438,
+      "q": -3.25
+    },
+    {
+      "stratum": "\u9ad8",
+      "score": "COVER_A",
+      "n_conf_true": 83,
+      "n_true": 240,
+      "n_false": 21,
+      "coverage": 0.9708,
+      "risk": 0.8571,
+      "q": -0.0216
+    },
+    {
+      "stratum": "\u9ad8",
+      "score": "raw_conf",
+      "n_conf_true": 83,
+      "n_true": 240,
+      "n_false": 21,
+      "coverage": 0.8875,
+      "risk": 0.9048,
+      "q": -4.8594
+    }
+  ],
+  "all_lam1": [
+    {
+      "stratum": "\u4f4e",
+      "score": "COVER_A",
+      "n_conf_true": 63,
+      "n_true": 212,
+      "n_false": 67,
+      "coverage": 0.9151,
+      "risk": 0.8657,
+      "q": 1.3326
+    },
+    {
+      "stratum": "\u4f4e",
+      "score": "raw_conf",
+      "n_conf_true": 63,
+      "n_true": 212,
+      "n_false": 67,
+      "coverage": 0.9623,
+      "risk": 0.8657,
+      "q": 1.0156
+    },
+    {
+      "stratum": "\u4e2d",
+      "score": "COVER_A",
+      "n_conf_true": 80,
+      "n_true": 240,
+      "n_false": 32,
+      "coverage": 0.9208,
+      "risk": 0.8438,
+      "q": 0.6728
+    },
+    {
+      "stratum": "\u4e2d",
+      "score": "raw_conf",
+      "n_conf_true": 80,
+      "n_true": 240,
+      "n_false": 32,
+      "coverage": 0.9083,
+      "risk": 0.8438,
+      "q": -3.25
+    },
+    {
+      "stratum": "\u9ad8",
+      "score": "COVER_A",
+      "n_conf_true": 83,
+      "n_true": 240,
+      "n_false": 21,
+      "coverage": 0.9208,
+      "risk": 0.9048,
+      "q": 0.6873
+    },
+    {
+      "stratum": "\u9ad8",
+      "score": "raw_conf",
+      "n_conf_true": 83,
+      "n_true": 240,
+      "n_false": 21,
+      "coverage": 0.8875,
+      "risk": 0.9048,
+      "q": -4.8594
+    }
+  ],
+  "spatial_lam0": [
+    {
+      "stratum": "\u4f4e",
+      "score": "COVER_A",
+      "n_conf_true": 15,
+      "n_true": 97,
+      "n_false": 38,
+      "coverage": 0.7732,
+      "risk": 0.5526,
+      "q": 0.8268
+    },
+    {
+      "stratum": "\u4f4e",
+      "score": "raw_conf",
+      "n_conf_true": 15,
+      "n_true": 97,
+      "n_false": 38,
+      "coverage": 0.866,
+      "risk": 0.6842,
+      "q": -0.8438
+    },
+    {
+      "stratum": "\u4e2d",
+      "score": "COVER_A",
+      "n_conf_true": 20,
+      "n_true": 57,
+      "n_false": 5,
+      "coverage": 0.9298,
+      "risk": 1.0,
+      "q": 0.9215
+    },
+    {
+      "stratum": "\u4e2d",
+      "score": "raw_conf",
+      "n_conf_true": 20,
+      "n_true": 57,
+      "n_false": 5,
+      "coverage": 0.8947,
+      "risk": 1.0,
+      "q": -3.7031
+    },
+    {
+      "stratum": "\u9ad8",
+      "score": "COVER_A",
+      "n_conf_true": 21,
+      "n_true": 55,
+      "n_false": 10,
+      "coverage": 0.8909,
+      "risk": 0.9,
+      "q": 0.3232
+    },
+    {
+      "stratum": "\u9ad8",
+      "score": "raw_conf",
+      "n_conf_true": 21,
+      "n_true": 55,
+      "n_false": 10,
+      "coverage": 1.0,
+      "risk": 1.0,
+      "q": -4.75
+    }
+  ],
+  "spatial_lam1": [
+    {
+      "stratum": "\u4f4e",
+      "score": "COVER_A",
+      "n_conf_true": 15,
+      "n_true": 97,
+      "n_false": 38,
+      "coverage": 0.8351,
+      "risk": 0.8421,
+      "q": 11.5412
+    },
+    {
+      "stratum": "\u4f4e",
+      "score": "raw_conf",
+      "n_conf_true": 15,
+      "n_true": 97,
+      "n_false": 38,
+      "coverage": 0.866,
+      "risk": 0.6842,
+      "q": -0.8438
+    },
+    {
+      "stratum": "\u4e2d",
+      "score": "COVER_A",
+      "n_conf_true": 20,
+      "n_true": 57,
+      "n_false": 5,
+      "coverage": 0.9123,
+      "risk": 1.0,
+      "q": 19.6767
+    },
+    {
+      "stratum": "\u4e2d",
+      "score": "raw_conf",
+      "n_conf_true": 20,
+      "n_true": 57,
+      "n_false": 5,
+      "coverage": 0.8947,
+      "risk": 1.0,
+      "q": -3.7031
+    },
+    {
+      "stratum": "\u9ad8",
+      "score": "COVER_A",
+      "n_conf_true": 21,
+      "n_true": 55,
+      "n_false": 10,
+      "coverage": 0.9455,
+      "risk": 0.9,
+      "q": 70.5231
+    },
+    {
+      "stratum": "\u9ad8",
+      "score": "raw_conf",
+      "n_conf_true": 21,
+      "n_true": 55,
+      "n_false": 10,
+      "coverage": 1.0,
+      "risk": 1.0,
+      "q": -4.75
+    }
+  ]
+}

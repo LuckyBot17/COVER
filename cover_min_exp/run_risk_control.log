@@ -1,0 +1,124 @@
+setup: std 212imgs/263cl  conf 212imgs/256cl
+=== Part A': global risk-coverage (q from FALSE calibration) ===
+
+non-spatial: conf-half FALSE n=34, eval T483/F67
+  COVER_A(lam0)    0.01    cov   risk         covCI        riskCI  0.05    cov   risk         covCI        riskCI   0.1    cov   risk         covCI        riskCI   0.2    cov   risk         covCI        riskCI   0.3    cov   risk         covCI        riskCI   0.5    cov   risk         covCI        riskCI
+    α=0.01 q= -2.147 cov=0.095 risk=0.015 covCI=[0.0744, 0.1148] riskCI=[0.0, 0.0263] (T46/1F)
+    α=0.05 q= -2.147 cov=0.095 risk=0.015 covCI=[0.0744, 0.1148] riskCI=[0.0, 0.0263] (T46/1F)
+    α=0.10 q= -1.092 cov=0.466 risk=0.194 covCI=[0.4319, 0.5] riskCI=[0.119, 0.2632] (T225/13F)
+    α=0.20 q= -0.381 cov=0.723 risk=0.373 covCI=[0.6901, 0.7533] riskCI=[0.2821, 0.4634] (T349/25F)
+    α=0.30 q= -0.195 cov=0.787 risk=0.448 covCI=[0.758, 0.8137] riskCI=[0.3571, 0.5455] (T380/30F)
+    α=0.50 q=  0.276 cov=0.909 risk=0.642 covCI=[0.8885, 0.929] riskCI=[0.5556, 0.7317] (T439/43F)
+  raw_conf         0.01    cov   risk         covCI        riskCI  0.05    cov   risk         covCI        riskCI   0.1    cov   risk         covCI        riskCI   0.2    cov   risk         covCI        riskCI   0.3    cov   risk         covCI        riskCI   0.5    cov   risk         covCI        riskCI
+    α=0.01 q= -6.438 cov=0.066 risk=0.045 covCI=[0.0497, 0.0822] riskCI=[0.0, 0.075] (T32/3F)
+    α=0.05 q= -6.438 cov=0.066 risk=0.045 covCI=[0.0497, 0.0822] riskCI=[0.0, 0.075] (T32/3F)
+    α=0.10 q= -5.672 cov=0.197 risk=0.075 covCI=[0.1689, 0.2244] riskCI=[0.0227, 0.122] (T95/5F)
+    α=0.20 q= -3.844 cov=0.565 risk=0.313 covCI=[0.5298, 0.6025] riskCI=[0.2273, 0.4] (T273/21F)
+    α=0.30 q= -3.719 cov=0.596 risk=0.328 covCI=[0.5609, 0.6314] riskCI=[0.2391, 0.4146] (T288/22F)
+    α=0.50 q= -2.141 cov=0.836 risk=0.612 covCI=[0.8108, 0.8619] riskCI=[0.5227, 0.7] (T404/41F)
+
+all: conf-half FALSE n=42, eval T692/F120
+  COVER_A(lam0)    0.01    cov   risk         covCI        riskCI  0.05    cov   risk         covCI        riskCI   0.1    cov   risk         covCI        riskCI   0.2    cov   risk         covCI        riskCI   0.3    cov   risk         covCI        riskCI   0.5    cov   risk         covCI        riskCI
+    α=0.01 q= -2.466 cov=0.069 risk=0.025 covCI=[0.0544, 0.0831] riskCI=[0.0, 0.0417] (T48/3F)
+    α=0.05 q= -1.574 cov=0.278 risk=0.108 covCI=[0.2511, 0.3039] riskCI=[0.0658, 0.1486] (T192/13F)
+    α=0.10 q= -1.077 cov=0.458 risk=0.225 covCI=[0.4282, 0.4861] riskCI=[0.1643, 0.2821] (T317/27F)
+    α=0.20 q= -0.495 cov=0.642 risk=0.350 covCI=[0.6128, 0.6675] riskCI=[0.2838, 0.4156] (T444/42F)
+    α=0.30 q= -0.194 cov=0.743 risk=0.450 covCI=[0.7176, 0.7657] riskCI=[0.3827, 0.5205] (T514/54F)
+    α=0.50 q=  0.224 cov=0.870 risk=0.583 covCI=[0.8502, 0.8887] riskCI=[0.519, 0.6501] (T602/70F)
+  raw_conf         0.01    cov   risk         covCI        riskCI  0.05    cov   risk         covCI        riskCI   0.1    cov   risk         covCI        riskCI   0.2    cov   risk         covCI        riskCI   0.3    cov   risk         covCI        riskCI   0.5    cov   risk         covCI        riskCI
+    α=0.01 q= -6.438 cov=0.056 risk=0.033 covCI=[0.044, 0.0694] riskCI=[0.0123, 0.0548] (T39/4F)
+    α=0.05 q= -6.281 cov=0.072 risk=0.050 covCI=[0.0583, 0.0866] riskCI=[0.0137, 0.0789] (T50/6F)
+    α=0.10 q= -4.750 cov=0.332 risk=0.158 covCI=[0.3057, 0.3583] riskCI=[0.1053, 0.2083] (T230/19F)
+    α=0.20 q= -3.891 cov=0.536 risk=0.300 covCI=[0.5067, 0.5645] riskCI=[0.2368, 0.3611] (T371/36F)
+    α=0.30 q= -3.719 cov=0.569 risk=0.308 covCI=[0.5397, 0.5977] riskCI=[0.2436, 0.3714] (T394/37F)
+    α=0.50 q= -2.172 cov=0.821 risk=0.600 covCI=[0.7976, 0.8434] riskCI=[0.5366, 0.6712] (T568/72F)
+
+spatial: conf-half FALSE n=8, eval T209/F53
+  COVER_A(lam0)    0.01    cov   risk         covCI        riskCI  0.05    cov   risk         covCI        riskCI   0.1    cov   risk         covCI        riskCI   0.2    cov   risk         covCI        riskCI   0.3    cov   risk         covCI        riskCI   0.5    cov   risk         covCI        riskCI
+    α=0.01 q= -1.762 cov=0.301 risk=0.226 covCI=[0.2538, 0.3482] riskCI=[0.1429, 0.3143] (T63/12F)
+    α=0.05 q= -1.762 cov=0.301 risk=0.226 covCI=[0.2538, 0.3482] riskCI=[0.1429, 0.3143] (T63/12F)
+    α=0.10 q= -1.762 cov=0.301 risk=0.226 covCI=[0.2538, 0.3482] riskCI=[0.1429, 0.3143] (T63/12F)
+    α=0.20 q= -1.762 cov=0.301 risk=0.226 covCI=[0.2538, 0.3482] riskCI=[0.1429, 0.3143] (T63/12F)
+    α=0.30 q= -0.666 cov=0.593 risk=0.377 covCI=[0.544, 0.6429] riskCI=[0.2727, 0.4722] (T124/20F)
+    α=0.50 q= -0.097 cov=0.746 risk=0.566 covCI=[0.705, 0.7907] riskCI=[0.4705, 0.6667] (T156/30F)
+  raw_conf         0.01    cov   risk         covCI        riskCI  0.05    cov   risk         covCI        riskCI   0.1    cov   risk         covCI        riskCI   0.2    cov   risk         covCI        riskCI   0.3    cov   risk         covCI        riskCI   0.5    cov   risk         covCI        riskCI
+    α=0.01 q= -4.750 cov=0.263 risk=0.189 covCI=[0.2197, 0.3083] riskCI=[0.1034, 0.2648] (T55/10F)
+    α=0.05 q= -4.750 cov=0.263 risk=0.189 covCI=[0.2197, 0.3083] riskCI=[0.1034, 0.2648] (T55/10F)
+    α=0.10 q= -4.750 cov=0.263 risk=0.189 covCI=[0.2197, 0.3083] riskCI=[0.1034, 0.2648] (T55/10F)
+    α=0.20 q= -4.750 cov=0.263 risk=0.189 covCI=[0.2197, 0.3083] riskCI=[0.1034, 0.2648] (T55/10F)
+    α=0.30 q= -3.891 cov=0.478 risk=0.283 covCI=[0.4286, 0.5318] riskCI=[0.1875, 0.375] (T100/15F)
+    α=0.50 q= -2.609 cov=0.727 risk=0.528 covCI=[0.6818, 0.7744] riskCI=[0.4242, 0.6333] (T152/28F)
+
+=== Part C': per-stratum risk control, alpha=0.10 ===
+
+non-spatial (terciles 2.81/4.69)
+  低 COVER_A(lam0)    n_conf_f= 21 q= -0.587 cov=0.269 [0.210,0.325] risk=0.147 (eval T119/F34)
+  低 raw_conf         n_conf_f= 21 q= -2.188 cov=0.303 [0.240,0.362] risk=0.206 (eval T119/F34)
+  中 COVER_A(lam0)    n_conf_f= 10 q= -2.147 cov=0.038 [0.017,0.059] risk=0.000 (eval T185/F24)
+  中 raw_conf         n_conf_f= 10 q= -4.688 cov=0.000 [0.000,0.000] risk=0.000 (eval T185/F24)
+  高 COVER_A(lam0)    n_conf_f=  3 q= -1.092 cov=0.771 [0.722,0.818] risk=0.556 (eval T179/F9)
+  高 raw_conf         n_conf_f=  3 q= -6.438 cov=0.179 [0.135,0.220] risk=0.333 (eval T179/F9)
+
+all (terciles 3.05/4.66)
+  低 COVER_A(lam0)    n_conf_f= 28 q= -0.705 cov=0.255 [0.212,0.297] risk=0.104 (eval T212/F67)
+  低 raw_conf         n_conf_f= 28 q= -2.891 cov=0.123 [0.086,0.157] risk=0.060 (eval T212/F67)
+  中 COVER_A(lam0)    n_conf_f=  9 q= -2.466 cov=0.025 [0.007,0.039] risk=0.000 (eval T240/F32)
+  中 raw_conf         n_conf_f=  9 q= -4.641 cov=0.025 [0.007,0.039] risk=0.062 (eval T240/F32)
+  高 COVER_A(lam0)    n_conf_f=  5 q= -1.303 cov=0.667 [0.621,0.711] risk=0.476 (eval T240/F21)
+  高 raw_conf         n_conf_f=  5 q= -6.438 cov=0.163 [0.126,0.196] risk=0.190 (eval T240/F21)
+
+=== Part B': two-candidate decisions, alpha-controlled ===
+
+non-spatial: conf-half FALSE n=34 (identity-only A3)
+  α=0.05 q=-2.292 ACCEPT 46 REPAIR 17 ABSTAIN 487 (true {'ACCEPT': 43, 'REPAIR': 14, 'ABSTAIN': 426} false {'ACCEPT': 3, 'REPAIR': 3, 'ABSTAIN': 61}) flip {'t': 14, 't_n': 14, 'f': 3, 'f_n': 3}
+  α=0.10 q=-1.129 ACCEPT 71 REPAIR 74 ABSTAIN 405 (true {'ACCEPT': 64, 'REPAIR': 68, 'ABSTAIN': 351} false {'ACCEPT': 7, 'REPAIR': 6, 'ABSTAIN': 54}) flip {'t': 68, 't_n': 68, 'f': 6, 'f_n': 6}
+  α=0.20 q=-0.614 ACCEPT 74 REPAIR 76 ABSTAIN 400 (true {'ACCEPT': 63, 'REPAIR': 69, 'ABSTAIN': 351} false {'ACCEPT': 11, 'REPAIR': 7, 'ABSTAIN': 49}) flip {'t': 69, 't_n': 69, 'f': 7, 'f_n': 7}
+
+all: conf-half FALSE n=42 (identity-only A3)
+  α=0.05 q=-1.730 ACCEPT 83 REPAIR 83 ABSTAIN 646 (true {'ACCEPT': 76, 'REPAIR': 73, 'ABSTAIN': 543} false {'ACCEPT': 7, 'REPAIR': 10, 'ABSTAIN': 103}) flip {'t': 73, 't_n': 73, 'f': 10, 'f_n': 10}
+  α=0.10 q=-1.135 ACCEPT 94 REPAIR 114 ABSTAIN 604 (true {'ACCEPT': 85, 'REPAIR': 103, 'ABSTAIN': 504} false {'ACCEPT': 9, 'REPAIR': 11, 'ABSTAIN': 100}) flip {'t': 103, 't_n': 103, 'f': 11, 'f_n': 11}
+  α=0.20 q=-0.708 ACCEPT 101 REPAIR 101 ABSTAIN 610 (true {'ACCEPT': 88, 'REPAIR': 89, 'ABSTAIN': 515} false {'ACCEPT': 13, 'REPAIR': 12, 'ABSTAIN': 95}) flip {'t': 89, 't_n': 89, 'f': 12, 'f_n': 12}
+
+=== Sensitivity: q from ALL calib false claims ===
+
+non-spatial: conf-half FALSE n=63, eval T483/F67
+  COVER_A(lam0)    0.01    cov   risk         covCI        riskCI  0.05    cov   risk         covCI        riskCI   0.1    cov   risk         covCI        riskCI   0.2    cov   risk         covCI        riskCI   0.3    cov   risk         covCI        riskCI   0.5    cov   risk         covCI        riskCI
+    α=0.01 q= -2.147 cov=0.095 risk=0.015 covCI=[0.0744, 0.1148] riskCI=[0.0, 0.0263] (T46/1F)
+    α=0.05 q= -1.337 cov=0.373 risk=0.134 covCI=[0.3389, 0.4063] riskCI=[0.0698, 0.1951] (T180/9F)
+    α=0.10 q= -0.969 cov=0.522 risk=0.194 covCI=[0.4863, 0.5566] riskCI=[0.119, 0.2632] (T252/13F)
+    α=0.20 q= -0.618 cov=0.662 risk=0.313 covCI=[0.6301, 0.6941] riskCI=[0.2308, 0.3959] (T320/21F)
+    α=0.30 q= -0.381 cov=0.723 risk=0.373 covCI=[0.6901, 0.7533] riskCI=[0.2821, 0.4634] (T349/25F)
+    α=0.50 q=  0.146 cov=0.880 risk=0.567 covCI=[0.8562, 0.9035] riskCI=[0.4762, 0.6586] (T425/38F)
+  raw_conf         0.01    cov   risk         covCI        riskCI  0.05    cov   risk         covCI        riskCI   0.1    cov   risk         covCI        riskCI   0.2    cov   risk         covCI        riskCI   0.3    cov   risk         covCI        riskCI   0.5    cov   risk         covCI        riskCI
+    α=0.01 q= -6.922 cov=0.025 risk=0.030 covCI=[0.0135, 0.0353] riskCI=[0.0, 0.0513] (T12/2F)
+    α=0.05 q= -6.438 cov=0.066 risk=0.045 covCI=[0.0497, 0.0822] riskCI=[0.0, 0.075] (T32/3F)
+    α=0.10 q= -5.672 cov=0.197 risk=0.075 covCI=[0.1689, 0.2244] riskCI=[0.0227, 0.122] (T95/5F)
+    α=0.20 q= -4.188 cov=0.499 risk=0.269 covCI=[0.4647, 0.5353] riskCI=[0.1818, 0.35] (T241/18F)
+    α=0.30 q= -3.719 cov=0.596 risk=0.328 covCI=[0.5609, 0.6314] riskCI=[0.2391, 0.4146] (T288/22F)
+    α=0.50 q= -2.453 cov=0.799 risk=0.522 covCI=[0.7712, 0.8262] riskCI=[0.4286, 0.6154] (T386/35F)
+
+all: conf-half FALSE n=78, eval T692/F120
+  COVER_A(lam0)    0.01    cov   risk         covCI        riskCI  0.05    cov   risk         covCI        riskCI   0.1    cov   risk         covCI        riskCI   0.2    cov   risk         covCI        riskCI   0.3    cov   risk         covCI        riskCI   0.5    cov   risk         covCI        riskCI
+    α=0.01 q= -2.466 cov=0.069 risk=0.025 covCI=[0.0544, 0.0831] riskCI=[0.0, 0.0417] (T48/3F)
+    α=0.05 q= -1.574 cov=0.278 risk=0.108 covCI=[0.2511, 0.3039] riskCI=[0.0658, 0.1486] (T192/13F)
+    α=0.10 q= -1.077 cov=0.458 risk=0.225 covCI=[0.4282, 0.4861] riskCI=[0.1643, 0.2821] (T317/27F)
+    α=0.20 q= -0.705 cov=0.588 risk=0.292 covCI=[0.5595, 0.6161] riskCI=[0.2254, 0.3521] (T407/35F)
+    α=0.30 q= -0.487 cov=0.644 risk=0.350 covCI=[0.6155, 0.6705] riskCI=[0.2838, 0.4156] (T446/42F)
+    α=0.50 q=  0.110 cov=0.840 risk=0.542 covCI=[0.8186, 0.86] riskCI=[0.4737, 0.6111] (T581/65F)
+  raw_conf         0.01    cov   risk         covCI        riskCI  0.05    cov   risk         covCI        riskCI   0.1    cov   risk         covCI        riskCI   0.2    cov   risk         covCI        riskCI   0.3    cov   risk         covCI        riskCI   0.5    cov   risk         covCI        riskCI
+    α=0.01 q= -6.922 cov=0.019 risk=0.017 covCI=[0.0112, 0.0259] riskCI=[0.0, 0.0286] (T13/2F)
+    α=0.05 q= -6.438 cov=0.056 risk=0.033 covCI=[0.044, 0.0694] riskCI=[0.0123, 0.0548] (T39/4F)
+    α=0.10 q= -5.172 cov=0.262 risk=0.142 covCI=[0.236, 0.286] riskCI=[0.0909, 0.1892] (T181/17F)
+    α=0.20 q= -4.188 cov=0.468 risk=0.267 covCI=[0.4396, 0.4976] riskCI=[0.2027, 0.325] (T324/32F)
+    α=0.30 q= -3.609 cov=0.595 risk=0.317 covCI=[0.5668, 0.6241] riskCI=[0.2535, 0.3798] (T412/38F)
+    α=0.50 q= -2.359 cov=0.795 risk=0.542 covCI=[0.7703, 0.8175] riskCI=[0.4744, 0.6154] (T550/65F)
+
+non-spatial (terciles 3.08/4.65)
+  低 COVER_A(lam0)    n_conf_f= 36 q= -0.440 cov=0.345 [0.286,0.407] risk=0.162 (eval T142/F37)
+  低 raw_conf         n_conf_f= 36 q= -2.906 cov=0.120 [0.077,0.159] risk=0.081 (eval T142/F37)
+  中 COVER_A(lam0)    n_conf_f= 17 q= -2.147 cov=0.038 [0.011,0.060] risk=0.000 (eval T159/F21)
+  中 raw_conf         n_conf_f= 17 q= -4.641 cov=0.019 [0.000,0.031] risk=0.095 (eval T159/F21)
+  高 COVER_A(lam0)    n_conf_f= 10 q= -1.418 cov=0.670 [0.616,0.724] risk=0.333 (eval T182/F9)
+  高 raw_conf         n_conf_f= 10 q= -6.922 cov=0.066 [0.040,0.092] risk=0.222 (eval T182/F9)
+
+[done] risk_control_rbench.json written

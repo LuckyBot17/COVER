@@ -1,0 +1,45 @@
+=== 清洗统计 ===
+  total: 3767
+  no_s_or_o: 0
+  bad_box: 10
+  not_relation_q: 824
+  no_parse: 1551
+  not_whitelisted: 0
+  quantified: 47
+  kept: 1335
+  [family] non-spatial: 全部 950 条
+  [family] spatial: 全部 385 条
+=== 抽样结果：共 1335 条，calib 520 / eval 815 ===
+  家族×标签:
+    non-spatial  标签1: 818
+    non-spatial  标签0: 132
+    spatial      标签1: 317
+    spatial      标签0: 68
+  关系分布:
+    wearing          553
+    holding          159
+    next to          132
+    riding           91
+    sitting on       72
+    playing          56
+    standing on      36
+    near             36
+    in front of      35
+    on               25
+    behind           18
+    eating           17
+    swimming         16
+    on top of        16
+    looking at       14
+    driving          12
+    interacting with 10
+    under            10
+    watching         7
+    drinking         6
+    carrying         4
+    above            4
+    using            3
+    reading          2
+    below            1
+  qtype 分布: {'Positive': 987, 'Opposite': 332, 'Random': 14, 'Positive.': 1, 'Opposite.': 1}
+[done] wrote rbench_claims_full.csv

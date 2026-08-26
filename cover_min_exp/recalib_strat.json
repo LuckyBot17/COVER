@@ -1,0 +1,80 @@
+[
+  {
+    "stratum": "低",
+    "n_conf_false": 21,
+    "n_true": 119,
+    "n_false": 34,
+    "COVER_A(lam0).V0": {
+      "q": -0.587,
+      "coverage": 0.2689,
+      "risk": 0.1471
+    },
+    "COVER_A(lam0).V2": {
+      "q": -0.932,
+      "coverage": 0.1345,
+      "risk": 0.0588
+    },
+    "raw_conf.V0": {
+      "q": -2.188,
+      "coverage": 0.3025,
+      "risk": 0.2059
+    },
+    "raw_conf.V2": {
+      "q": -2.75,
+      "coverage": 0.0756,
+      "risk": 0.0
+    }
+  },
+  {
+    "stratum": "中",
+    "n_conf_false": 10,
+    "n_true": 185,
+    "n_false": 24,
+    "COVER_A(lam0).V0": {
+      "q": -2.147,
+      "coverage": 0.0378,
+      "risk": 0.0
+    },
+    "COVER_A(lam0).V2": {
+      "q": -Infinity,
+      "coverage": 0.0,
+      "risk": 0.0
+    },
+    "raw_conf.V0": {
+      "q": -4.688,
+      "coverage": 0.0,
+      "risk": 0.0
+    },
+    "raw_conf.V2": {
+      "q": -Infinity,
+      "coverage": 0.0,
+      "risk": 0.0
+    }
+  },
+  {
+    "stratum": "高",
+    "n_conf_false": 3,
+    "n_true": 179,
+    "n_false": 9,
+    "COVER_A(lam0).V0": {
+      "q": -1.092,
+      "coverage": 0.7709,
+      "risk": 0.5556
+    },
+    "COVER_A(lam0).V2": {
+      "q": -Infinity,
+      "coverage": 0.0,
+      "risk": 0.0
+    },
+    "raw_conf.V0": {
+      "q": -6.438,
+      "coverage": 0.1788,
+      "risk": 0.3333
+    },
+    "raw_conf.V2": {
+      "q": -Infinity,
+      "coverage": 0.0,
+      "risk": 0.0
+    }
+  }
+]

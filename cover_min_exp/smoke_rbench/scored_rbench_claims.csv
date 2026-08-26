@@ -1,0 +1,6 @@
+image_id,s,o,r,label,split,family,qtype,d_id:s,d_id:o,d_id:so,d_inv:s,d_inv:o,d_inv:so,a_orig
+8c4e736ef60aa3f9.jpg,man,red hat,wearing,1,calib,non-spatial,Positive,3.3125,3.703125,3.25,3.03125,2.3593750596046448,2.921875,1.671875
+ecc1b92e865ed769.jpg,man,two large fish,holding,1,calib,non-spatial,Positive,4.328125,5.578124940395355,4.953125,0.6093749403953552,0.4218749403953552,0.7187499403953552,4.703125
+aef0a8bc66d5205d.jpg,people,parachute,riding,1,eval,non-spatial,Positive,0.265625,3.015625,3.296875,-0.046875,0.96875,0.9375000596046448,2.640625
+cc3be92a42a1ce64.jpg,man,clothing,wearing,0,calib,non-spatial,Positive,0.75,1.4062500596046448,2.65625,0.3437499403953552,0.125,0.609375,2.171875
+81eab2350699a82e.jpg,man,glasses,holding,0,eval,non-spatial,Opposite,4.375,4.375,4.484375,1.171875,1.171875,1.40625,4.15625

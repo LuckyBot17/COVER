@@ -1,0 +1,14 @@
+non-spatial per-stratum V0 (conf-half q) vs V2 (cluster-bootstrap q), alpha=0.1
+  低 COVER_A(lam0)    V0 q= -0.587 cov=0.269 risk=0.147 (eval T119/F34, calibF 33)
+  低 COVER_A(lam0)    V2 q= -0.932 cov=0.134 risk=0.059 (eval T119/F34, calibF 33)
+  低 raw_conf         V0 q= -2.188 cov=0.303 risk=0.206 (eval T119/F34, calibF 33)
+  低 raw_conf         V2 q= -2.750 cov=0.076 risk=0.000 (eval T119/F34, calibF 33)
+  中 COVER_A(lam0)    V0 q= -2.147 cov=0.038 risk=0.000 (eval T185/F24, calibF 21)
+  中 COVER_A(lam0)    V2 q=   -inf cov=0.000 risk=0.000 (eval T185/F24, calibF 21)
+  中 raw_conf         V0 q= -4.688 cov=0.000 risk=0.000 (eval T185/F24, calibF 21)
+  中 raw_conf         V2 q=   -inf cov=0.000 risk=0.000 (eval T185/F24, calibF 21)
+  高 COVER_A(lam0)    V0 q= -1.092 cov=0.771 risk=0.556 (eval T179/F9, calibF 9)
+  高 COVER_A(lam0)    V2 q=   -inf cov=0.000 risk=0.000 (eval T179/F9, calibF 9)
+  高 raw_conf         V0 q= -6.438 cov=0.179 risk=0.333 (eval T179/F9, calibF 9)
+  高 raw_conf         V2 q=   -inf cov=0.000 risk=0.000 (eval T179/F9, calibF 9)
+[done] recalib_strat.json

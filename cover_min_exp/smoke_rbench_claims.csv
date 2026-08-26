@@ -1,0 +1,6 @@
+image_id,image_path,s,o,r,r_inv,label,split,family,qtype,orig_text,sub_box,obj_box
+8c4e736ef60aa3f9.jpg,/root/autodl-tmp/data/R-bench/validation/8c4e736ef60aa3f9.jpg,man,red hat,wearing,wearing,1,calib,non-spatial,Positive,Does the man in the image wear a red hat?,0|51|768|973,177|51|483|318
+ecc1b92e865ed769.jpg,/root/autodl-tmp/data/R-bench/validation/ecc1b92e865ed769.jpg,man,two large fish,holding,holding,1,calib,non-spatial,Positive,Is the man in the image holding two large fish?,420|31|256|629,543|384|102|369
+aef0a8bc66d5205d.jpg,/root/autodl-tmp/data/R-bench/validation/aef0a8bc66d5205d.jpg,people,parachute,riding,riding,1,eval,non-spatial,Positive,Are the people in the image riding on a parachute?,266|473|123|212,0|0|1024|411
+cc3be92a42a1ce64.jpg,/root/autodl-tmp/data/R-bench/validation/cc3be92a42a1ce64.jpg,man,clothing,wearing,wearing,0,calib,non-spatial,Positive,Is the man in the image wearing clothing?,51|31|205|655,532|133|164|256
+81eab2350699a82e.jpg,/root/autodl-tmp/data/R-bench/validation/81eab2350699a82e.jpg,man,glasses,holding,holding,0,eval,non-spatial,Opposite,Is the man in the image holding his glasses?,0|31|549|993,0|31|549|993

@@ -1,0 +1,20 @@
+setup: conf 60 / eval 166 (true 83, false 83)
+identity ops kept: ['s', 'o', 'so']  inverse ops kept: ['s', 'o', 'so']
+  accept-AUROC eval  A_id   = 0.584
+  accept-AUROC eval  A_inv  = 0.556
+  accept-AUROC eval  a_orig = 0.592
+
+=== main protocol (q from conf-half FALSE A_id / A_inv) ===
+  a0.05 q_id=-55.999 q_inv=-18.711 ACCEPT 3 REPAIR 0 ABSTAIN 163 | true {'ACCEPT': 3, 'REPAIR': 0, 'ABSTAIN': 80} false {'ACCEPT': 0, 'REPAIR': 0, 'ABSTAIN': 83} | REPAIR precision None | rescue 0 harm 0 | precision-with 1.000 vs identity-only 1.000 | REPAIR-B 4 (4 true)
+  a0.1 q_id=-9.866 q_inv=-8.834 ACCEPT 42 REPAIR 0 ABSTAIN 124 | true {'ACCEPT': 26, 'REPAIR': 0, 'ABSTAIN': 57} false {'ACCEPT': 16, 'REPAIR': 0, 'ABSTAIN': 67} | REPAIR precision None | rescue 0 harm 0 | precision-with 0.619 vs identity-only 0.619 | REPAIR-B 1 (0 true)
+  a0.2 q_id=-9.433 q_inv=-4.391 ACCEPT 44 REPAIR 1 ABSTAIN 121 | true {'ACCEPT': 27, 'REPAIR': 0, 'ABSTAIN': 56} false {'ACCEPT': 17, 'REPAIR': 1, 'ABSTAIN': 65} | REPAIR precision 0.0 | rescue 0 harm 1 | precision-with 0.600 vs identity-only 0.614 | REPAIR-B 6 (3 true)
+
+=== sensitivity (q from ALL calib FALSE A_id / A_inv) ===
+  a0.05 q_id=-61.915 q_inv=-18.711 ACCEPT 2 REPAIR 0 ABSTAIN 164 | true {'ACCEPT': 2, 'REPAIR': 0, 'ABSTAIN': 81} false {'ACCEPT': 0, 'REPAIR': 0, 'ABSTAIN': 83} | REPAIR precision None | rescue 0 harm 0 | precision-with 1.000 vs identity-only 1.000 | REPAIR-B 5 (5 true)
+  a0.1 q_id=-23.133 q_inv=-11.817 ACCEPT 15 REPAIR 0 ABSTAIN 151 | true {'ACCEPT': 11, 'REPAIR': 0, 'ABSTAIN': 72} false {'ACCEPT': 4, 'REPAIR': 0, 'ABSTAIN': 79} | REPAIR precision None | rescue 0 harm 0 | precision-with 0.733 vs identity-only 0.733 | REPAIR-B 1 (0 true)
+  a0.2 q_id=-9.433 q_inv=-4.391 ACCEPT 44 REPAIR 1 ABSTAIN 121 | true {'ACCEPT': 27, 'REPAIR': 0, 'ABSTAIN': 56} false {'ACCEPT': 17, 'REPAIR': 1, 'ABSTAIN': 65} | REPAIR precision 0.0 | rescue 0 harm 1 | precision-with 0.600 vs identity-only 0.614 | REPAIR-B 6 (3 true)
+  Pearson corr(A_id, A_inv) on eval = 0.820 (n=166)
+
+structural: inverse-of-false claims that are true in scene graph: 0/0 expected; inv_true==label holds for 280/280
+
+[done] repair_gqa.json

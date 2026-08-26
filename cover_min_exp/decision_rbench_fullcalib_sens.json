@@ -1,0 +1,398 @@
+{
+  "non-spatial": {
+    "kept_ops": [
+      "d_id:o",
+      "d_id:s",
+      "d_id:so"
+    ],
+    "lam0": {
+      "d0.05": {
+        "delta": 0.05,
+        "q": 0.740756359887051,
+        "n_conf": 170,
+        "score": "A_fullcalib",
+        "n_true": 483,
+        "n_false": 67,
+        "coverage(ACCEPT|true)": 0.9731,
+        "coverage_ci": [
+          0.9628,
+          0.9838
+        ],
+        "risk(ACCEPT|false)": 0.9552,
+        "risk_ci": [
+          0.9231,
+          1.0
+        ],
+        "n_accept_true": 470,
+        "n_accept_false": 64
+      },
+      "d0.1": {
+        "delta": 0.1,
+        "q": 0.337314810634219,
+        "n_conf": 170,
+        "score": "A_fullcalib",
+        "n_true": 483,
+        "n_false": 67,
+        "coverage(ACCEPT|true)": 0.9151,
+        "coverage_ci": [
+          0.8954,
+          0.9342
+        ],
+        "risk(ACCEPT|false)": 0.806,
+        "risk_ci": [
+          0.7317,
+          0.8837
+        ],
+        "n_accept_true": 442,
+        "n_accept_false": 54
+      },
+      "d0.2": {
+        "delta": 0.2,
+        "q": -0.10098875732004035,
+        "n_conf": 170,
+        "score": "A_fullcalib",
+        "n_true": 483,
+        "n_false": 67,
+        "coverage(ACCEPT|true)": 0.8137,
+        "coverage_ci": [
+          0.7871,
+          0.8403
+        ],
+        "risk(ACCEPT|false)": 0.5373,
+        "risk_ci": [
+          0.4419,
+          0.6341
+        ],
+        "n_accept_true": 393,
+        "n_accept_false": 36
+      }
+    },
+    "lam1": {
+      "d0.05": {
+        "delta": 0.05,
+        "q": 1.0435177098651112,
+        "n_conf": 170,
+        "score": "A_fullcalib",
+        "n_true": 483,
+        "n_false": 67,
+        "coverage(ACCEPT|true)": 0.9627,
+        "coverage_ci": [
+          0.9498,
+          0.9767
+        ],
+        "risk(ACCEPT|false)": 0.9403,
+        "risk_ci": [
+          0.9,
+          0.9783
+        ],
+        "n_accept_true": 465,
+        "n_accept_false": 63
+      },
+      "d0.1": {
+        "delta": 0.1,
+        "q": 0.7386046487464312,
+        "n_conf": 170,
+        "score": "A_fullcalib",
+        "n_true": 483,
+        "n_false": 67,
+        "coverage(ACCEPT|true)": 0.942,
+        "coverage_ci": [
+          0.9264,
+          0.9582
+        ],
+        "risk(ACCEPT|false)": 0.8806,
+        "risk_ci": [
+          0.8222,
+          0.9487
+        ],
+        "n_accept_true": 455,
+        "n_accept_false": 59
+      },
+      "d0.2": {
+        "delta": 0.2,
+        "q": 0.2410574539316519,
+        "n_conf": 170,
+        "score": "A_fullcalib",
+        "n_true": 483,
+        "n_false": 67,
+        "coverage(ACCEPT|true)": 0.8302,
+        "coverage_ci": [
+          0.805,
+          0.8553
+        ],
+        "risk(ACCEPT|false)": 0.6418,
+        "risk_ci": [
+          0.55,
+          0.7317
+        ],
+        "n_accept_true": 401,
+        "n_accept_false": 43
+      }
+    }
+  },
+  "all": {
+    "kept_ops": [
+      "d_id:o",
+      "d_id:s",
+      "d_id:so"
+    ],
+    "lam0": {
+      "d0.05": {
+        "delta": 0.05,
+        "q": 0.5830231454660889,
+        "n_conf": 226,
+        "score": "A_fullcalib",
+        "n_true": 692,
+        "n_false": 120,
+        "coverage(ACCEPT|true)": 0.9581,
+        "coverage_ci": [
+          0.9464,
+          0.9699
+        ],
+        "risk(ACCEPT|false)": 0.85,
+        "risk_ci": [
+          0.8026,
+          0.9014
+        ],
+        "n_accept_true": 663,
+        "n_accept_false": 102
+      },
+      "d0.1": {
+        "delta": 0.1,
+        "q": 0.2202619860554501,
+        "n_conf": 226,
+        "score": "A_fullcalib",
+        "n_true": 692,
+        "n_false": 120,
+        "coverage(ACCEPT|true)": 0.8887,
+        "coverage_ci": [
+          0.8713,
+          0.9059
+        ],
+        "risk(ACCEPT|false)": 0.7167,
+        "risk_ci": [
+          0.6538,
+          0.7792
+        ],
+        "n_accept_true": 615,
+        "n_accept_false": 86
+      },
+      "d0.2": {
+        "delta": 0.2,
+        "q": -0.18100031865085306,
+        "n_conf": 226,
+        "score": "A_fullcalib",
+        "n_true": 692,
+        "n_false": 120,
+        "coverage(ACCEPT|true)": 0.7702,
+        "coverage_ci": [
+          0.7476,
+          0.7939
+        ],
+        "risk(ACCEPT|false)": 0.4667,
+        "risk_ci": [
+          0.3947,
+          0.5342
+        ],
+        "n_accept_true": 533,
+        "n_accept_false": 56
+      }
+    },
+    "lam1": {
+      "d0.05": {
+        "delta": 0.05,
+        "q": 1.0243244581302915,
+        "n_conf": 226,
+        "score": "A_fullcalib",
+        "n_true": 692,
+        "n_false": 120,
+        "coverage(ACCEPT|true)": 0.9639,
+        "coverage_ci": [
+          0.9531,
+          0.9756
+        ],
+        "risk(ACCEPT|false)": 0.9333,
+        "risk_ci": [
+          0.9014,
+          0.9714
+        ],
+        "n_accept_true": 667,
+        "n_accept_false": 112
+      },
+      "d0.1": {
+        "delta": 0.1,
+        "q": 0.5371255336908959,
+        "n_conf": 226,
+        "score": "A_fullcalib",
+        "n_true": 692,
+        "n_false": 120,
+        "coverage(ACCEPT|true)": 0.909,
+        "coverage_ci": [
+          0.8933,
+          0.9256
+        ],
+        "risk(ACCEPT|false)": 0.8,
+        "risk_ci": [
+          0.7467,
+          0.8551
+        ],
+        "n_accept_true": 629,
+        "n_accept_false": 96
+      },
+      "d0.2": {
+        "delta": 0.2,
+        "q": 0.19742037333002294,
+        "n_conf": 226,
+        "score": "A_fullcalib",
+        "n_true": 692,
+        "n_false": 120,
+        "coverage(ACCEPT|true)": 0.8194,
+        "coverage_ci": [
+          0.7986,
+          0.841
+        ],
+        "risk(ACCEPT|false)": 0.575,
+        "risk_ci": [
+          0.5065,
+          0.6418
+        ],
+        "n_accept_true": 567,
+        "n_accept_false": 69
+      }
+    }
+  },
+  "spatial": {
+    "kept_ops": [
+      "d_id:o",
+      "d_id:s",
+      "d_id:so",
+      "d_inv:o",
+      "d_inv:s",
+      "d_inv:so"
+    ],
+    "lam0": {
+      "d0.05": {
+        "delta": 0.05,
+        "q": 0.11819248618414684,
+        "n_conf": 56,
+        "score": "A_fullcalib",
+        "n_true": 209,
+        "n_false": 53,
+        "coverage(ACCEPT|true)": 0.8565,
+        "coverage_ci": [
+          0.8209,
+          0.8921
+        ],
+        "risk(ACCEPT|false)": 0.6226,
+        "risk_ci": [
+          0.5161,
+          0.7222
+        ],
+        "n_accept_true": 179,
+        "n_accept_false": 33
+      },
+      "d0.1": {
+        "delta": 0.1,
+        "q": 0.031527724190369776,
+        "n_conf": 56,
+        "score": "A_fullcalib",
+        "n_true": 209,
+        "n_false": 53,
+        "coverage(ACCEPT|true)": 0.8278,
+        "coverage_ci": [
+          0.7895,
+          0.8653
+        ],
+        "risk(ACCEPT|false)": 0.5849,
+        "risk_ci": [
+          0.4839,
+          0.6875
+        ],
+        "n_accept_true": 173,
+        "n_accept_false": 31
+      },
+      "d0.2": {
+        "delta": 0.2,
+        "q": -0.2380064750679701,
+        "n_conf": 56,
+        "score": "A_fullcalib",
+        "n_true": 209,
+        "n_false": 53,
+        "coverage(ACCEPT|true)": 0.7321,
+        "coverage_ci": [
+          0.6879,
+          0.7761
+        ],
+        "risk(ACCEPT|false)": 0.5472,
+        "risk_ci": [
+          0.4412,
+          0.6563
+        ],
+        "n_accept_true": 153,
+        "n_accept_false": 29
+      }
+    },
+    "lam1": {
+      "d0.05": {
+        "delta": 0.05,
+        "q": 1.7876334763569552,
+        "n_conf": 56,
+        "score": "A_fullcalib",
+        "n_true": 209,
+        "n_false": 53,
+        "coverage(ACCEPT|true)": 0.9665,
+        "coverage_ci": [
+          0.9478,
+          0.9851
+        ],
+        "risk(ACCEPT|false)": 0.9057,
+        "risk_ci": [
+          0.8485,
+          0.9697
+        ],
+        "n_accept_true": 202,
+        "n_accept_false": 48
+      },
+      "d0.1": {
+        "delta": 0.1,
+        "q": 1.312888851213891,
+        "n_conf": 56,
+        "score": "A_fullcalib",
+        "n_true": 209,
+        "n_false": 53,
+        "coverage(ACCEPT|true)": 0.9234,
+        "coverage_ci": [
+          0.8968,
+          0.9524
+        ],
+        "risk(ACCEPT|false)": 0.9057,
+        "risk_ci": [
+          0.8485,
+          0.9697
+        ],
+        "n_accept_true": 193,
+        "n_accept_false": 48
+      },
+      "d0.2": {
+        "delta": 0.2,
+        "q": 0.4280432510613377,
+        "n_conf": 56,
+        "score": "A_fullcalib",
+        "n_true": 209,
+        "n_false": 53,
+        "coverage(ACCEPT|true)": 0.7273,
+        "coverage_ci": [
+          0.6818,
+          0.7752
+        ],
+        "risk(ACCEPT|false)": 0.5472,
+        "risk_ci": [
+          0.4412,
+          0.6471
+        ],
+        "n_accept_true": 152,
+        "n_accept_false": 29
+      }
+    }
+  }
+}

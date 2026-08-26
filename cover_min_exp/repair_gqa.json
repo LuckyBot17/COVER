@@ -1,0 +1,464 @@
+{
+  "note": "full-calib b/g (GQA identity diffs too weak for half-fit); q from conf-half FALSE A_id (main) or full-calib (sensitivity)",
+  "ops_kept": {
+    "id": [
+      "s",
+      "o",
+      "so"
+    ],
+    "inv": [
+      "s",
+      "o",
+      "so"
+    ]
+  },
+  "n": {
+    "calib": 114,
+    "conf": 60,
+    "eval": 166
+  },
+  "verifier_auroc": {
+    "A_id": 0.5844,
+    "A_inv": 0.5558,
+    "a_orig": 0.5918
+  },
+  "main": {
+    "a0.05": {
+      "q": -55.999,
+      "q_inv": -18.711,
+      "n_eval_true": 83,
+      "n_eval_false": 83,
+      "decisions": {
+        "ACCEPT": 3,
+        "REPAIR": 0,
+        "ABSTAIN": 163
+      },
+      "by_label": {
+        "true": {
+          "ACCEPT": 3,
+          "REPAIR": 0,
+          "ABSTAIN": 80
+        },
+        "false": {
+          "ACCEPT": 0,
+          "REPAIR": 0,
+          "ABSTAIN": 83
+        }
+      },
+      "cross_tab": {
+        "id_le": {
+          "inv_le": 0,
+          "inv_gt": 6
+        },
+        "id_gt": {
+          "inv_le": 0,
+          "inv_gt": 326
+        }
+      },
+      "cross_tab_by_label": {
+        "true": {
+          "id_le": {
+            "inv_le": 0,
+            "inv_gt": 6
+          },
+          "id_gt": {
+            "inv_le": 0,
+            "inv_gt": 326
+          }
+        },
+        "false": {
+          "id_le": {
+            "inv_le": 0,
+            "inv_gt": 6
+          },
+          "id_gt": {
+            "inv_le": 0,
+            "inv_gt": 326
+          }
+        }
+      },
+      "repair_b_fires": 4,
+      "repair_b_true": 4,
+      "repair_precision": null,
+      "repair_fire_rate_true": 0.0,
+      "repair_fire_rate_false": 0.0,
+      "rescue_true_via_repair": 0,
+      "harm_false_via_repair": 0,
+      "identity_only": {
+        "precision": 1.0,
+        "true_outputs": 3,
+        "n_decided": 3
+      },
+      "with_repair": {
+        "precision": 1.0,
+        "true_outputs": 3,
+        "n_decided": 3
+      }
+    },
+    "a0.1": {
+      "q": -9.866,
+      "q_inv": -8.834,
+      "n_eval_true": 83,
+      "n_eval_false": 83,
+      "decisions": {
+        "ACCEPT": 42,
+        "REPAIR": 0,
+        "ABSTAIN": 124
+      },
+      "by_label": {
+        "true": {
+          "ACCEPT": 26,
+          "REPAIR": 0,
+          "ABSTAIN": 57
+        },
+        "false": {
+          "ACCEPT": 16,
+          "REPAIR": 0,
+          "ABSTAIN": 67
+        }
+      },
+      "cross_tab": {
+        "id_le": {
+          "inv_le": 22,
+          "inv_gt": 62
+        },
+        "id_gt": {
+          "inv_le": 0,
+          "inv_gt": 248
+        }
+      },
+      "cross_tab_by_label": {
+        "true": {
+          "id_le": {
+            "inv_le": 22,
+            "inv_gt": 62
+          },
+          "id_gt": {
+            "inv_le": 0,
+            "inv_gt": 248
+          }
+        },
+        "false": {
+          "id_le": {
+            "inv_le": 22,
+            "inv_gt": 62
+          },
+          "id_gt": {
+            "inv_le": 0,
+            "inv_gt": 248
+          }
+        }
+      },
+      "repair_b_fires": 1,
+      "repair_b_true": 0,
+      "repair_precision": null,
+      "repair_fire_rate_true": 0.0,
+      "repair_fire_rate_false": 0.0,
+      "rescue_true_via_repair": 0,
+      "harm_false_via_repair": 0,
+      "identity_only": {
+        "precision": 0.619,
+        "true_outputs": 26,
+        "n_decided": 42
+      },
+      "with_repair": {
+        "precision": 0.619,
+        "true_outputs": 26,
+        "n_decided": 42
+      }
+    },
+    "a0.2": {
+      "q": -9.433,
+      "q_inv": -4.391,
+      "n_eval_true": 83,
+      "n_eval_false": 83,
+      "decisions": {
+        "ACCEPT": 44,
+        "REPAIR": 1,
+        "ABSTAIN": 121
+      },
+      "by_label": {
+        "true": {
+          "ACCEPT": 27,
+          "REPAIR": 0,
+          "ABSTAIN": 56
+        },
+        "false": {
+          "ACCEPT": 17,
+          "REPAIR": 1,
+          "ABSTAIN": 65
+        }
+      },
+      "cross_tab": {
+        "id_le": {
+          "inv_le": 24,
+          "inv_gt": 64
+        },
+        "id_gt": {
+          "inv_le": 2,
+          "inv_gt": 242
+        }
+      },
+      "cross_tab_by_label": {
+        "true": {
+          "id_le": {
+            "inv_le": 24,
+            "inv_gt": 64
+          },
+          "id_gt": {
+            "inv_le": 2,
+            "inv_gt": 242
+          }
+        },
+        "false": {
+          "id_le": {
+            "inv_le": 24,
+            "inv_gt": 64
+          },
+          "id_gt": {
+            "inv_le": 2,
+            "inv_gt": 242
+          }
+        }
+      },
+      "repair_b_fires": 6,
+      "repair_b_true": 3,
+      "repair_precision": 0.0,
+      "repair_fire_rate_true": 0.0,
+      "repair_fire_rate_false": 0.012,
+      "rescue_true_via_repair": 0,
+      "harm_false_via_repair": 1,
+      "identity_only": {
+        "precision": 0.6136,
+        "true_outputs": 27,
+        "n_decided": 44
+      },
+      "with_repair": {
+        "precision": 0.6,
+        "true_outputs": 27,
+        "n_decided": 45
+      }
+    }
+  },
+  "sens_fullq": {
+    "a0.05": {
+      "q": -61.915,
+      "q_inv": -18.711,
+      "n_eval_true": 83,
+      "n_eval_false": 83,
+      "decisions": {
+        "ACCEPT": 2,
+        "REPAIR": 0,
+        "ABSTAIN": 164
+      },
+      "by_label": {
+        "true": {
+          "ACCEPT": 2,
+          "REPAIR": 0,
+          "ABSTAIN": 81
+        },
+        "false": {
+          "ACCEPT": 0,
+          "REPAIR": 0,
+          "ABSTAIN": 83
+        }
+      },
+      "cross_tab": {
+        "id_le": {
+          "inv_le": 0,
+          "inv_gt": 4
+        },
+        "id_gt": {
+          "inv_le": 0,
+          "inv_gt": 328
+        }
+      },
+      "cross_tab_by_label": {
+        "true": {
+          "id_le": {
+            "inv_le": 0,
+            "inv_gt": 4
+          },
+          "id_gt": {
+            "inv_le": 0,
+            "inv_gt": 328
+          }
+        },
+        "false": {
+          "id_le": {
+            "inv_le": 0,
+            "inv_gt": 4
+          },
+          "id_gt": {
+            "inv_le": 0,
+            "inv_gt": 328
+          }
+        }
+      },
+      "repair_b_fires": 5,
+      "repair_b_true": 5,
+      "repair_precision": null,
+      "repair_fire_rate_true": 0.0,
+      "repair_fire_rate_false": 0.0,
+      "rescue_true_via_repair": 0,
+      "harm_false_via_repair": 0,
+      "identity_only": {
+        "precision": 1.0,
+        "true_outputs": 2,
+        "n_decided": 2
+      },
+      "with_repair": {
+        "precision": 1.0,
+        "true_outputs": 2,
+        "n_decided": 2
+      }
+    },
+    "a0.1": {
+      "q": -23.133,
+      "q_inv": -11.817,
+      "n_eval_true": 83,
+      "n_eval_false": 83,
+      "decisions": {
+        "ACCEPT": 15,
+        "REPAIR": 0,
+        "ABSTAIN": 151
+      },
+      "by_label": {
+        "true": {
+          "ACCEPT": 11,
+          "REPAIR": 0,
+          "ABSTAIN": 72
+        },
+        "false": {
+          "ACCEPT": 4,
+          "REPAIR": 0,
+          "ABSTAIN": 79
+        }
+      },
+      "cross_tab": {
+        "id_le": {
+          "inv_le": 4,
+          "inv_gt": 26
+        },
+        "id_gt": {
+          "inv_le": 0,
+          "inv_gt": 302
+        }
+      },
+      "cross_tab_by_label": {
+        "true": {
+          "id_le": {
+            "inv_le": 4,
+            "inv_gt": 26
+          },
+          "id_gt": {
+            "inv_le": 0,
+            "inv_gt": 302
+          }
+        },
+        "false": {
+          "id_le": {
+            "inv_le": 4,
+            "inv_gt": 26
+          },
+          "id_gt": {
+            "inv_le": 0,
+            "inv_gt": 302
+          }
+        }
+      },
+      "repair_b_fires": 1,
+      "repair_b_true": 0,
+      "repair_precision": null,
+      "repair_fire_rate_true": 0.0,
+      "repair_fire_rate_false": 0.0,
+      "rescue_true_via_repair": 0,
+      "harm_false_via_repair": 0,
+      "identity_only": {
+        "precision": 0.7333,
+        "true_outputs": 11,
+        "n_decided": 15
+      },
+      "with_repair": {
+        "precision": 0.7333,
+        "true_outputs": 11,
+        "n_decided": 15
+      }
+    },
+    "a0.2": {
+      "q": -9.433,
+      "q_inv": -4.391,
+      "n_eval_true": 83,
+      "n_eval_false": 83,
+      "decisions": {
+        "ACCEPT": 44,
+        "REPAIR": 1,
+        "ABSTAIN": 121
+      },
+      "by_label": {
+        "true": {
+          "ACCEPT": 27,
+          "REPAIR": 0,
+          "ABSTAIN": 56
+        },
+        "false": {
+          "ACCEPT": 17,
+          "REPAIR": 1,
+          "ABSTAIN": 65
+        }
+      },
+      "cross_tab": {
+        "id_le": {
+          "inv_le": 24,
+          "inv_gt": 64
+        },
+        "id_gt": {
+          "inv_le": 2,
+          "inv_gt": 242
+        }
+      },
+      "cross_tab_by_label": {
+        "true": {
+          "id_le": {
+            "inv_le": 24,
+            "inv_gt": 64
+          },
+          "id_gt": {
+            "inv_le": 2,
+            "inv_gt": 242
+          }
+        },
+        "false": {
+          "id_le": {
+            "inv_le": 24,
+            "inv_gt": 64
+          },
+          "id_gt": {
+            "inv_le": 2,
+            "inv_gt": 242
+          }
+        }
+      },
+      "repair_b_fires": 6,
+      "repair_b_true": 3,
+      "repair_precision": 0.0,
+      "repair_fire_rate_true": 0.0,
+      "repair_fire_rate_false": 0.012,
+      "rescue_true_via_repair": 0,
+      "harm_false_via_repair": 1,
+      "identity_only": {
+        "precision": 0.6136,
+        "true_outputs": 27,
+        "n_decided": 44
+      },
+      "with_repair": {
+        "precision": 0.6,
+        "true_outputs": 27,
+        "n_decided": 45
+      }
+    }
+  },
+  "score_corr_pearson": 0.8195,
+  "structural_inverse_of_false_is_true": 0,
+  "verified_inv_true_eq_label": 280
+}

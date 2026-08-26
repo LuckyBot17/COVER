@@ -1,0 +1,78 @@
+{
+  "claims_scored": 1331,
+  "eval_claims": 812,
+  "operators_kept": [
+    "d_id:s",
+    "d_id:o",
+    "d_id:so",
+    "d_inv:s",
+    "d_inv:o",
+    "d_inv:so"
+  ],
+  "calibration": {
+    "b": {
+      "d_id:s": 0.4609375,
+      "d_id:o": 0.6250000298023224,
+      "d_id:so": 1.09375,
+      "d_inv:s": 0.8515625,
+      "d_inv:o": 0.6953125,
+      "d_inv:so": 1.1796874701976776
+    },
+    "g": {
+      "d_id:s": 2.1796875,
+      "d_id:o": 1.8281249701976776,
+      "d_id:so": 2.046875,
+      "d_inv:s": 1.6875,
+      "d_inv:o": 1.5859375,
+      "d_inv:so": 1.7421875298023224
+    }
+  },
+  "overall_auroc": {
+    "a_orig (raw confidence)": 0.66877408477842,
+    "mean evidence drop": 0.7061717244701349,
+    "mu (common support)": 0.7059609826589596,
+    "J (overid conflict)": 0.5791064547206166,
+    "A = -mu + lam*J": 0.3118376685934489
+  },
+  "strata": [
+    {
+      "stratum": 0,
+      "range": [
+        -Infinity,
+        3.01
+      ],
+      "n": 271,
+      "n_true": 204,
+      "auc_mu": 0.6822505121451565,
+      "auc_A": 0.3255048287971905,
+      "mean_mu_true": 0.31262562878007755,
+      "mean_mu_false": -0.05327150989920554
+    },
+    {
+      "stratum": 1,
+      "range": [
+        3.01,
+        4.62
+      ],
+      "n": 272,
+      "n_true": 242,
+      "auc_mu": 0.6351239669421488,
+      "auc_A": 0.3557851239669422,
+      "mean_mu_true": 0.9507926638994204,
+      "mean_mu_false": 0.6132898234250149
+    },
+    {
+      "stratum": 2,
+      "range": [
+        4.62,
+        Infinity
+      ],
+      "n": 269,
+      "n_true": 246,
+      "auc_mu": 0.6203605514316013,
+      "auc_A": 0.43248497702368327,
+      "mean_mu_true": 1.588290157800383,
+      "mean_mu_false": 1.2495617424834713
+    }
+  ]
+}

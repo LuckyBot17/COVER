@@ -1,0 +1,71 @@
+[info] 500 claims, 0 already scored
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:00,  9.48it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00, 12.89it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00, 12.43it/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.48, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+[info] model loaded on cuda; yes_id=3869 no_id=1939
+[progress] 10/500 (newly scored: 10)
+[progress] 20/500 (newly scored: 20)
+[progress] 30/500 (newly scored: 30)
+[progress] 40/500 (newly scored: 40)
+[progress] 50/500 (newly scored: 50)
+[progress] 60/500 (newly scored: 60)
+[progress] 70/500 (newly scored: 70)
+[progress] 80/500 (newly scored: 80)
+[progress] 90/500 (newly scored: 90)
+[progress] 100/500 (newly scored: 100)
+[progress] 110/500 (newly scored: 110)
+[progress] 120/500 (newly scored: 120)
+[progress] 130/500 (newly scored: 130)
+[progress] 140/500 (newly scored: 139)
+[progress] 150/500 (newly scored: 149)
+[progress] 160/500 (newly scored: 159)
+[progress] 180/500 (newly scored: 178)
+[progress] 190/500 (newly scored: 188)
+[progress] 200/500 (newly scored: 198)
+[progress] 210/500 (newly scored: 208)
+[progress] 220/500 (newly scored: 218)
+[progress] 230/500 (newly scored: 228)
+[progress] 240/500 (newly scored: 238)
+[progress] 250/500 (newly scored: 248)
+[progress] 260/500 (newly scored: 258)
+[progress] 270/500 (newly scored: 268)
+[progress] 280/500 (newly scored: 278)
+[progress] 290/500 (newly scored: 288)
+[progress] 300/500 (newly scored: 298)
+[progress] 310/500 (newly scored: 308)
+[progress] 320/500 (newly scored: 318)
+[progress] 330/500 (newly scored: 328)
+[progress] 340/500 (newly scored: 338)
+[progress] 350/500 (newly scored: 348)
+[progress] 360/500 (newly scored: 358)
+[progress] 370/500 (newly scored: 368)
+[progress] 380/500 (newly scored: 378)
+[progress] 390/500 (newly scored: 388)
+[progress] 400/500 (newly scored: 398)
+[progress] 410/500 (newly scored: 408)
+[progress] 420/500 (newly scored: 418)
+[progress] 430/500 (newly scored: 428)
+[progress] 440/500 (newly scored: 438)
+[progress] 450/500 (newly scored: 448)
+[progress] 460/500 (newly scored: 458)
+[progress] 470/500 (newly scored: 468)
+[progress] 480/500 (newly scored: 478)
+[progress] 490/500 (newly scored: 488)
+[progress] 500/500 (newly scored: 498)
+[info] kept operators: ['d_id:o', 'd_id:s', 'd_id:so', 'd_inv:o', 'd_inv:s', 'd_inv:so']
+[info] calibration b: {'d_id:s': 0.516, 'd_id:o': 0.844, 'd_id:so': 1.188, 'd_inv:s': 0.531, 'd_inv:o': 0.32, 'd_inv:so': 0.945}
+[info] calibration g: {'d_id:s': 1.562, 'd_id:o': 1.516, 'd_id:so': 1.961, 'd_inv:s': 0.469, 'd_inv:o': 0.477, 'd_inv:so': 0.289}
+[info] eval claims: 302 (true 197, false 105)
+
+=== Overall AUROC on evaluation split ===
+  a_orig (raw confidence)          0.648
+  mean evidence drop               0.650
+  mu (common support)              0.609
+  J (overid conflict)              0.521
+  A = -mu + lam*J                  0.412
+
+=== Gate test: within raw-confidence strata ===
+  stratum 0  a_orig in (-inf, 2.33)  n=101 (true=50)  AUC(mu)=0.535  AUC(A)=0.489  mean_mu true/false = 0.14/-0.04
+  stratum 1  a_orig in (2.33, 4.25)  n=100 (true=71)  AUC(mu)=0.610  AUC(A)=0.394  mean_mu true/false = 1.50/1.13
+  stratum 2  a_orig in (4.25, inf)  n=101 (true=76)  AUC(mu)=0.457  AUC(A)=0.412  mean_mu true/false = 1.93/2.27
+
+[done] metrics_rbench.json and eval_rbench.csv written

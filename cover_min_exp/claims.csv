@@ -1,0 +1,281 @@
+split,image_id,image_path,s,o,r,r_inv,label,s_box,o_box,width,height,present_rels
+calib,2369526,/root/autodl-tmp/data/GQA/images/2369526.jpg,man,elephant,behind,in front of,1,179|18|138|272,71|140|428|192,500,334,behind
+eval,2324183,/root/autodl-tmp/data/GQA/images/2324183.jpg,feathers,birds,to the left of,to the right of,1,290|155|37|43,36|263|41|31,500,333,to the left of
+calib,2385924,/root/autodl-tmp/data/GQA/images/2385924.jpg,man,shirt,in front of,behind,0,386|70|68|249,389|126|56|72,500,339,to the left of
+eval,2316597,/root/autodl-tmp/data/GQA/images/2316597.jpg,guy,bird,watching,watched by,1,472|1|27|64,131|84|318|199,500,332,watching
+eval,2406564,/root/autodl-tmp/data/GQA/images/2406564.jpg,tiger,motorcycle,next to,next to,0,19|279|140|113,17|136|313|323,331,500,watching
+calib,2406953,/root/autodl-tmp/data/GQA/images/2406953.jpg,branches,umbrella,holding,held by,1,145|35|45|39,159|101|102|70,500,333,holding|under
+calib,2315601,/root/autodl-tmp/data/GQA/images/2315601.jpg,banana,man,near,near,1,440|203|19|55,211|107|54|217,500,373,near|to the left of|to the right of
+eval,2350006,/root/autodl-tmp/data/GQA/images/2350006.jpg,sticks,skis,riding,ridden by,0,71|16|20|116,236|75|67|59,500,206,carrying
+eval,2404539,/root/autodl-tmp/data/GQA/images/2404539.jpg,person,bun,carrying,carried by,0,4|8|93|112,151|211|169|163,375,500,under
+eval,2322017,/root/autodl-tmp/data/GQA/images/2322017.jpg,ski,goggles,near,near,0,161|258|61|16,231|111|34|31,500,335,to the left of
+eval,713411,/root/autodl-tmp/data/GQA/images/713411.jpg,sign,motorcycle,above,below,0,591|89|37|227,358|528|53|99,1024,768,riding|to the left of|to the right of
+eval,2387036,/root/autodl-tmp/data/GQA/images/2387036.jpg,chair,tank top,holding,held by,0,309|103|160|151,42|159|115|147,500,333,wearing
+eval,2316161,/root/autodl-tmp/data/GQA/images/2316161.jpg,hand,fan,under,on top of,0,0|177|47|105,12|70|76|259,500,333,holding
+eval,2398747,/root/autodl-tmp/data/GQA/images/2398747.jpg,hat,bear,next to,next to,1,223|58|194|195,204|57|237|302,500,374,next to|to the right of
+eval,2342617,/root/autodl-tmp/data/GQA/images/2342617.jpg,suv,truck,on top of,under,0,0|167|59|51,43|122|312|113,500,375,near|next to|to the left of
+calib,2365119,/root/autodl-tmp/data/GQA/images/2365119.jpg,light switch,shelf,below,above,1,292|236|51|48,30|169|265|25,375,500,below
+eval,2416539,/root/autodl-tmp/data/GQA/images/2416539.jpg,hair,glasses,wearing,worn by,1,273|49|119|60,358|89|26|39,500,375,wearing
+eval,1082,/root/autodl-tmp/data/GQA/images/1082.jpg,shoes,dress,above,below,0,141|245|232|109,337|147|92|135,600,402,holding
+eval,2393461,/root/autodl-tmp/data/GQA/images/2393461.jpg,purse,woman,below,above,1,104|282|61|131,20|48|123|421,435,500,below
+eval,2345287,/root/autodl-tmp/data/GQA/images/2345287.jpg,counter,pitcher,behind,in front of,1,58|239|441|80,232|123|48|62,500,375,behind
+eval,2343032,/root/autodl-tmp/data/GQA/images/2343032.jpg,head,pants,below,above,0,182|79|67|64,144|248|173|84,500,333,wearing
+eval,2410495,/root/autodl-tmp/data/GQA/images/2410495.jpg,chair,paper,above,below,1,0|2|224|140,3|149|350|285,375,500,above
+eval,2373590,/root/autodl-tmp/data/GQA/images/2373590.jpg,backpack,trees,near,near,1,83|204|149|170,1|0|497|246,500,375,near
+eval,2398747,/root/autodl-tmp/data/GQA/images/2398747.jpg,hat,bear,in front of,behind,0,223|58|194|195,204|57|237|302,500,374,next to|to the right of
+calib,2403439,/root/autodl-tmp/data/GQA/images/2403439.jpg,clouds,platform,next to,next to,1,421|1|78|69,0|233|288|142,500,375,near|next to
+eval,713411,/root/autodl-tmp/data/GQA/images/713411.jpg,buildings,motorcycle,riding,ridden by,1,396|240|116|171,358|528|53|99,1024,768,riding|to the left of|to the right of
+eval,2354282,/root/autodl-tmp/data/GQA/images/2354282.jpg,motorcycle,bike,riding,ridden by,1,279|117|86|85,359|115|128|112,500,333,riding|to the right of
+calib,2393683,/root/autodl-tmp/data/GQA/images/2393683.jpg,fence,racket,carrying,carried by,1,0|0|332|196,144|166|95|81,333,500,carrying|holding
+calib,2360431,/root/autodl-tmp/data/GQA/images/2360431.jpg,lettuce,lid,riding,ridden by,0,347|224|48|40,155|111|102|96,500,500,below
+calib,2343942,/root/autodl-tmp/data/GQA/images/2343942.jpg,man,shirt,to the right of,to the left of,1,440|148|38|32,323|195|72|72,500,375,to the right of
+eval,2345287,/root/autodl-tmp/data/GQA/images/2345287.jpg,counter,pitcher,on top of,under,0,58|239|441|80,232|123|48|62,500,375,behind
+eval,2327321,/root/autodl-tmp/data/GQA/images/2327321.jpg,umbrella,purse,above,below,0,72|38|195|99,145|157|68|105,333,500,holding
+eval,2368037,/root/autodl-tmp/data/GQA/images/2368037.jpg,hair,woman,to the left of,to the right of,0,177|4|86|80,136|4|223|371,500,375,behind
+eval,2350006,/root/autodl-tmp/data/GQA/images/2350006.jpg,hat,skis,carrying,carried by,1,261|34|21|32,236|75|67|59,500,206,carrying
+calib,2365505,/root/autodl-tmp/data/GQA/images/2365505.jpg,man,box,next to,next to,1,371|0|101|333,331|66|69|71,500,333,next to|to the left of
+calib,2359457,/root/autodl-tmp/data/GQA/images/2359457.jpg,characters,fork,below,above,0,1|170|485|330,326|387|174|57,500,500,under
+calib,2397873,/root/autodl-tmp/data/GQA/images/2397873.jpg,bushes,train tracks,wearing,worn by,0,110|165|244|78,218|235|261|138,500,375,behind
+eval,2317835,/root/autodl-tmp/data/GQA/images/2317835.jpg,hair dryer,counter,under,on top of,1,280|400|53|47,86|247|248|130,334,500,under
+eval,2354914,/root/autodl-tmp/data/GQA/images/2354914.jpg,person,umbrella,holding,held by,1,464|144|36|187,153|168|59|17,500,375,holding
+calib,2369526,/root/autodl-tmp/data/GQA/images/2369526.jpg,man,elephant,wearing,worn by,0,179|18|138|272,71|140|428|192,500,334,behind
+eval,2365702,/root/autodl-tmp/data/GQA/images/2365702.jpg,shore,horse,riding,ridden by,1,2|189|498|139,211|171|38|57,500,333,riding
+calib,2411655,/root/autodl-tmp/data/GQA/images/2411655.jpg,wire,traffic light,under,on top of,1,200|0|65|61,204|108|168|68,500,375,under
+eval,2367922,/root/autodl-tmp/data/GQA/images/2367922.jpg,fence,rocks,to the left of,to the right of,0,247|0|143|68,116|154|257|112,500,375,to the right of
+calib,2363977,/root/autodl-tmp/data/GQA/images/2363977.jpg,hand,cell phone,holding,held by,1,117|163|178|127,111|143|111|111,333,500,holding
+eval,2413411,/root/autodl-tmp/data/GQA/images/2413411.jpg,bottle,fries,holding,held by,0,10|1|142|185,256|135|103|85,500,375,above
+eval,2393461,/root/autodl-tmp/data/GQA/images/2393461.jpg,purse,woman,wearing,worn by,0,104|282|61|131,20|48|123|421,435,500,below
+eval,2319140,/root/autodl-tmp/data/GQA/images/2319140.jpg,street light,smoke,below,above,1,407|119|25|90,186|69|81|67,500,283,below
+calib,2404536,/root/autodl-tmp/data/GQA/images/2404536.jpg,hat,purse,carrying,carried by,1,398|50|76|57,155|311|35|85,500,425,carrying|holding
+eval,2355438,/root/autodl-tmp/data/GQA/images/2355438.jpg,baby,head,near,near,0,26|63|430|219,195|61|262|208,500,281,on top of
+calib,2409383,/root/autodl-tmp/data/GQA/images/2409383.jpg,hair,ocean,next to,next to,1,73|13|72|65,1|79|499|205,500,333,next to
+calib,2404536,/root/autodl-tmp/data/GQA/images/2404536.jpg,arm,purse,carrying,carried by,1,353|150|72|101,155|311|35|85,500,425,carrying|holding
+calib,2397873,/root/autodl-tmp/data/GQA/images/2397873.jpg,bushes,bridge,under,on top of,1,110|165|244|78,0|113|376|51,500,375,under
+calib,2388902,/root/autodl-tmp/data/GQA/images/2388902.jpg,leg,giraffe,behind,in front of,1,114|141|30|58,155|48|36|81,320,240,behind|to the left of
+eval,2391205,/root/autodl-tmp/data/GQA/images/2391205.jpg,foot,sand,in front of,behind,0,215|400|36|28,0|191|375|309,375,500,above
+eval,713411,/root/autodl-tmp/data/GQA/images/713411.jpg,buildings,motorcycle,holding,held by,0,396|240|116|171,358|528|53|99,1024,768,riding|to the left of|to the right of
+eval,2354282,/root/autodl-tmp/data/GQA/images/2354282.jpg,canopy,bike,riding,ridden by,1,0|0|103|43,359|115|128|112,500,333,riding|to the right of
+eval,2408823,/root/autodl-tmp/data/GQA/images/2408823.jpg,mat,donuts,holding,held by,0,367|281|120|51,114|183|195|149,500,333,above
+eval,2350006,/root/autodl-tmp/data/GQA/images/2350006.jpg,sticks,skis,carrying,carried by,1,71|16|20|116,236|75|67|59,500,206,carrying
+eval,2331876,/root/autodl-tmp/data/GQA/images/2331876.jpg,person,paper,on top of,under,1,150|0|283|53,33|62|320|232,500,334,on top of
+calib,2386979,/root/autodl-tmp/data/GQA/images/2386979.jpg,socks,post,riding,ridden by,0,137|251|60|17,215|7|19|64,500,333,behind
+calib,2382358,/root/autodl-tmp/data/GQA/images/2382358.jpg,policeman,horse,wearing,worn by,0,319|28|115|210,332|122|146|253,500,375,riding
+calib,2393683,/root/autodl-tmp/data/GQA/images/2393683.jpg,fence,racket,to the right of,to the left of,0,0|0|332|196,144|166|95|81,333,500,carrying|holding
+calib,2342152,/root/autodl-tmp/data/GQA/images/2342152.jpg,giraffe,rocks,to the right of,to the left of,0,0|69|154|207,141|230|89|16,333,500,in front of|to the left of
+calib,2388902,/root/autodl-tmp/data/GQA/images/2388902.jpg,leg,giraffe,watching,watched by,0,114|141|30|58,155|48|36|81,320,240,behind|to the left of
+calib,2365119,/root/autodl-tmp/data/GQA/images/2365119.jpg,light switch,shelf,holding,held by,0,292|236|51|48,30|169|265|25,375,500,below
+calib,2402492,/root/autodl-tmp/data/GQA/images/2402492.jpg,keyboard,girl,to the right of,to the left of,1,84|252|243|122,141|90|122|93,500,375,to the right of
+eval,2399886,/root/autodl-tmp/data/GQA/images/2399886.jpg,chair,spoon,near,near,1,105|0|295|48,419|172|50|94,500,281,near|to the left of
+eval,2404539,/root/autodl-tmp/data/GQA/images/2404539.jpg,person,bun,under,on top of,1,4|8|93|112,151|211|169|163,375,500,under
+calib,2398287,/root/autodl-tmp/data/GQA/images/2398287.jpg,head,man,to the left of,to the right of,0,159|19|41|41,47|16|216|147,500,375,watching
+calib,2404536,/root/autodl-tmp/data/GQA/images/2404536.jpg,hat,purse,wearing,worn by,0,398|50|76|57,155|311|35|85,500,425,carrying|holding
+calib,2374543,/root/autodl-tmp/data/GQA/images/2374543.jpg,hand,shirt,wearing,worn by,1,224|212|48|22,250|78|123|113,500,375,wearing
+eval,2318427,/root/autodl-tmp/data/GQA/images/2318427.jpg,hand,dish,on top of,under,0,80|35|81|47,351|29|133|134,500,333,next to|to the right of
+eval,2317835,/root/autodl-tmp/data/GQA/images/2317835.jpg,hair dryer,counter,carrying,carried by,0,280|400|53|47,86|247|248|130,334,500,under
+calib,2342152,/root/autodl-tmp/data/GQA/images/2342152.jpg,arm,fence,to the left of,to the right of,0,162|267|27|51,1|331|331|169,333,500,above|behind
+eval,2343032,/root/autodl-tmp/data/GQA/images/2343032.jpg,head,pants,wearing,worn by,1,182|79|67|64,144|248|173|84,500,333,wearing
+eval,2373169,/root/autodl-tmp/data/GQA/images/2373169.jpg,shirt,racket,holding,held by,1,358|90|73|70,417|117|59|42,500,332,holding
+eval,2320260,/root/autodl-tmp/data/GQA/images/2320260.jpg,goats,animals,riding,ridden by,0,215|334|141|143,24|337|196|134,460,500,watching
+eval,2316161,/root/autodl-tmp/data/GQA/images/2316161.jpg,hand,fan,holding,held by,1,0|177|47|105,12|70|76|259,500,333,holding
+eval,2354282,/root/autodl-tmp/data/GQA/images/2354282.jpg,bag,bike,on top of,under,0,228|177|31|31,359|115|128|112,500,333,riding|to the right of
+calib,2409383,/root/autodl-tmp/data/GQA/images/2409383.jpg,hair,ocean,to the right of,to the left of,0,73|13|72|65,1|79|499|205,500,333,next to
+eval,2401748,/root/autodl-tmp/data/GQA/images/2401748.jpg,plate,tablecloth,to the left of,to the right of,1,54|26|382|253,322|56|176|225,500,281,to the left of
+eval,2375931,/root/autodl-tmp/data/GQA/images/2375931.jpg,bread,glass,wearing,worn by,0,0|40|121|83,280|23|162|227,500,375,to the left of
+eval,2318427,/root/autodl-tmp/data/GQA/images/2318427.jpg,beer bottle,dish,riding,ridden by,0,162|183|51|60,351|29|133|134,500,333,next to|to the right of
+calib,2399534,/root/autodl-tmp/data/GQA/images/2399534.jpg,boy,skateboarder,watching,watched by,1,366|137|38|54,273|79|71|99,500,333,to the right of|watching
+eval,2391275,/root/autodl-tmp/data/GQA/images/2391275.jpg,bathtub,toilet,above,below,0,89|165|324|150,0|179|210|153,500,333,next to
+calib,2361045,/root/autodl-tmp/data/GQA/images/2361045.jpg,feathers,branch,under,on top of,0,242|145|80|41,0|111|166|124,500,333,to the right of
+eval,2388665,/root/autodl-tmp/data/GQA/images/2388665.jpg,lamps,bed,on top of,under,1,0|127|40|94,78|149|253|183,500,333,on top of
+calib,2413325,/root/autodl-tmp/data/GQA/images/2413325.jpg,post,jeans,behind,in front of,0,176|257|30|76,317|303|72|30,500,333,to the right of
+calib,2397873,/root/autodl-tmp/data/GQA/images/2397873.jpg,bushes,train tracks,behind,in front of,1,110|165|244|78,218|235|261|138,500,375,behind
+eval,2409219,/root/autodl-tmp/data/GQA/images/2409219.jpg,shirt,tongs,riding,ridden by,0,312|58|45|34,267|172|57|27,500,375,holding|to the left of
+calib,2411476,/root/autodl-tmp/data/GQA/images/2411476.jpg,man,napkin,to the right of,to the left of,1,121|121|56|87,326|306|69|34,500,375,to the right of
+calib,2398287,/root/autodl-tmp/data/GQA/images/2398287.jpg,head,man,watching,watched by,1,159|19|41|41,47|16|216|147,500,375,watching
+eval,2391763,/root/autodl-tmp/data/GQA/images/2391763.jpg,chair,television,in front of,behind,1,318|181|55|73,0|151|68|40,500,335,behind|in front of
+calib,2343942,/root/autodl-tmp/data/GQA/images/2343942.jpg,man,shirt,wearing,worn by,0,440|148|38|32,323|195|72|72,500,375,to the right of
+eval,2371219,/root/autodl-tmp/data/GQA/images/2371219.jpg,pie,notebook,near,near,1,29|55|364|227,411|85|88|145,500,500,near
+eval,1066,/root/autodl-tmp/data/GQA/images/1066.jpg,doll,stuffed bear,to the left of,to the right of,0,268|228|39|59,580|113|40|52,640,480,below|near
+calib,2368472,/root/autodl-tmp/data/GQA/images/2368472.jpg,girl,bottle,near,near,1,195|152|140|136,398|174|37|118,500,375,near|to the left of
+eval,2361354,/root/autodl-tmp/data/GQA/images/2361354.jpg,woman,car,to the left of,to the right of,0,236|193|49|114,0|180|47|56,500,375,in front of|to the right of
+eval,2354282,/root/autodl-tmp/data/GQA/images/2354282.jpg,bag,bike,riding,ridden by,1,228|177|31|31,359|115|128|112,500,333,riding|to the right of
+calib,2395942,/root/autodl-tmp/data/GQA/images/2395942.jpg,head,leg,holding,held by,0,101|194|48|69,163|272|20|32,209,500,on top of|to the right of
+eval,2409219,/root/autodl-tmp/data/GQA/images/2409219.jpg,shirt,tongs,holding,held by,1,312|58|45|34,267|172|57|27,500,375,holding|to the left of
+calib,2363977,/root/autodl-tmp/data/GQA/images/2363977.jpg,hand,cell phone,wearing,worn by,0,117|163|178|127,111|143|111|111,333,500,holding
+eval,2350006,/root/autodl-tmp/data/GQA/images/2350006.jpg,shoe,skis,carrying,carried by,1,307|152|31|33,236|75|67|59,500,206,carrying
+calib,2325391,/root/autodl-tmp/data/GQA/images/2325391.jpg,head,statue,in front of,behind,0,302|122|50|59,390|213|32|41,500,333,below
+eval,1082,/root/autodl-tmp/data/GQA/images/1082.jpg,shoes,dress,holding,held by,1,141|245|232|109,337|147|92|135,600,402,holding
+eval,2402403,/root/autodl-tmp/data/GQA/images/2402403.jpg,wings,camera,wearing,worn by,0,28|155|77|21,323|226|42|23,500,331,above
+calib,2342152,/root/autodl-tmp/data/GQA/images/2342152.jpg,head,fence,next to,next to,0,242|183|53|72,1|331|331|169,333,500,above|behind
+eval,2342617,/root/autodl-tmp/data/GQA/images/2342617.jpg,suv,truck,next to,next to,1,0|167|59|51,43|122|312|113,500,375,near|next to|to the left of
+calib,2408827,/root/autodl-tmp/data/GQA/images/2408827.jpg,hot dog,sauce,under,on top of,1,13|130|487|104,78|114|161|72,500,332,under
+calib,2368472,/root/autodl-tmp/data/GQA/images/2368472.jpg,girl,bottle,in front of,behind,0,195|152|140|136,398|174|37|118,500,375,near|to the left of
+eval,2416539,/root/autodl-tmp/data/GQA/images/2416539.jpg,hair,glasses,on top of,under,0,273|49|119|60,358|89|26|39,500,375,wearing
+eval,2343665,/root/autodl-tmp/data/GQA/images/2343665.jpg,car,taxi,near,near,1,0|230|55|100,27|203|385|255,412,500,near
+calib,2408827,/root/autodl-tmp/data/GQA/images/2408827.jpg,hot dog,sauce,behind,in front of,0,13|130|487|104,78|114|161|72,500,332,under
+eval,2319140,/root/autodl-tmp/data/GQA/images/2319140.jpg,street light,smoke,above,below,0,407|119|25|90,186|69|81|67,500,283,below
+calib,2369526,/root/autodl-tmp/data/GQA/images/2369526.jpg,people,elephant,on top of,under,0,305|29|95|240,71|140|428|192,500,334,behind
+calib,2386979,/root/autodl-tmp/data/GQA/images/2386979.jpg,socks,post,behind,in front of,1,137|251|60|17,215|7|19|64,500,333,behind
+eval,2373590,/root/autodl-tmp/data/GQA/images/2373590.jpg,backpack,trees,to the left of,to the right of,0,83|204|149|170,1|0|497|246,500,375,near
+eval,2330666,/root/autodl-tmp/data/GQA/images/2330666.jpg,jeans,kites,behind,in front of,0,239|226|50|87,102|21|120|122,500,333,watching
+calib,2341526,/root/autodl-tmp/data/GQA/images/2341526.jpg,fruit,plate,on top of,under,1,118|97|262|164,29|53|419|250,500,333,on top of
+eval,2318427,/root/autodl-tmp/data/GQA/images/2318427.jpg,hand,dish,next to,next to,1,80|35|81|47,351|29|133|134,500,333,next to|to the right of
+eval,2375931,/root/autodl-tmp/data/GQA/images/2375931.jpg,bread,glass,to the left of,to the right of,1,0|40|121|83,280|23|162|227,500,375,to the left of
+eval,2376766,/root/autodl-tmp/data/GQA/images/2376766.jpg,sign,bench,under,on top of,1,441|126|19|56,141|236|193|60,500,374,under
+eval,341,/root/autodl-tmp/data/GQA/images/341.jpg,woman,van,to the right of,to the left of,0,173|351|41|102,547|331|74|68,800,600,in front of
+calib,2385924,/root/autodl-tmp/data/GQA/images/2385924.jpg,man,shirt,to the left of,to the right of,1,386|70|68|249,389|126|56|72,500,339,to the left of
+eval,2316597,/root/autodl-tmp/data/GQA/images/2316597.jpg,guy,bird,on top of,under,0,472|1|27|64,131|84|318|199,500,332,watching
+eval,2370874,/root/autodl-tmp/data/GQA/images/2370874.jpg,pen,elephant,to the left of,to the right of,0,0|183|469|12,300|158|89|51,500,333,in front of|to the right of
+calib,2374543,/root/autodl-tmp/data/GQA/images/2374543.jpg,bench,shirt,watching,watched by,0,0|152|393|203,250|78|123|113,500,375,wearing
+calib,2374543,/root/autodl-tmp/data/GQA/images/2374543.jpg,hand,shirt,to the left of,to the right of,0,224|212|48|22,250|78|123|113,500,375,wearing
+calib,2381256,/root/autodl-tmp/data/GQA/images/2381256.jpg,ladder,roadway,wearing,worn by,0,452|148|43|184,0|130|415|202,500,333,next to
+eval,2363785,/root/autodl-tmp/data/GQA/images/2363785.jpg,sandwich,plate,to the right of,to the left of,1,224|29|195|198,0|9|69|66,500,307,on top of|to the right of
+eval,2354914,/root/autodl-tmp/data/GQA/images/2354914.jpg,person,umbrella,next to,next to,0,464|144|36|187,153|168|59|17,500,375,holding
+eval,2318442,/root/autodl-tmp/data/GQA/images/2318442.jpg,shower,toilet,behind,in front of,1,186|0|186|453,188|372|57|118,375,500,behind
+eval,2370874,/root/autodl-tmp/data/GQA/images/2370874.jpg,pen,elephant,in front of,behind,1,0|183|469|12,300|158|89|51,500,333,in front of|to the right of
+eval,2346025,/root/autodl-tmp/data/GQA/images/2346025.jpg,woman,bag,to the right of,to the left of,0,170|116|43|157,89|65|63|120,500,333,carrying
+eval,2343665,/root/autodl-tmp/data/GQA/images/2343665.jpg,car,taxi,under,on top of,0,0|230|55|100,27|203|385|255,412,500,near
+calib,2369526,/root/autodl-tmp/data/GQA/images/2369526.jpg,people,elephant,behind,in front of,1,305|29|95|240,71|140|428|192,500,334,behind
+calib,2406953,/root/autodl-tmp/data/GQA/images/2406953.jpg,umbrellas,umbrella,holding,held by,1,244|116|76|30,159|101|102|70,500,333,holding|under
+eval,2341585,/root/autodl-tmp/data/GQA/images/2341585.jpg,bag,shop,in front of,behind,1,70|215|68|75,307|0|193|309,500,331,in front of|to the left of
+eval,2354282,/root/autodl-tmp/data/GQA/images/2354282.jpg,canopy,bike,above,below,0,0|0|103|43,359|115|128|112,500,333,riding|to the right of
+eval,2330002,/root/autodl-tmp/data/GQA/images/2330002.jpg,head,mouse pad,on top of,under,1,421|59|78|98,367|189|132|77,500,375,on top of
+calib,2393683,/root/autodl-tmp/data/GQA/images/2393683.jpg,shirt,racket,holding,held by,1,141|127|103|111,144|166|95|81,333,500,carrying|holding
+calib,2367061,/root/autodl-tmp/data/GQA/images/2367061.jpg,rock,fence,behind,in front of,1,459|177|41|27,14|108|486|106,500,332,behind
+eval,2413411,/root/autodl-tmp/data/GQA/images/2413411.jpg,bottle,fries,above,below,1,10|1|142|185,256|135|103|85,500,375,above
+calib,2363931,/root/autodl-tmp/data/GQA/images/2363931.jpg,girl,shorts,holding,held by,0,349|85|136|190,453|171|33|33,500,281,to the left of
+eval,2386698,/root/autodl-tmp/data/GQA/images/2386698.jpg,table,lamp,in front of,behind,0,184|83|270|51,429|20|28|44,500,134,under
+eval,2350006,/root/autodl-tmp/data/GQA/images/2350006.jpg,shoe,skis,watching,watched by,0,307|152|31|33,236|75|67|59,500,206,carrying
+eval,2362137,/root/autodl-tmp/data/GQA/images/2362137.jpg,man,bat,carrying,carried by,1,77|51|193|344,80|271|34|69,334,500,carrying|holding
+eval,2406564,/root/autodl-tmp/data/GQA/images/2406564.jpg,man,motorcycle,in front of,behind,0,264|2|54|171,17|136|313|323,331,500,watching
+eval,2320260,/root/autodl-tmp/data/GQA/images/2320260.jpg,goats,animals,watching,watched by,1,215|334|141|143,24|337|196|134,460,500,watching
+calib,2399534,/root/autodl-tmp/data/GQA/images/2399534.jpg,boy,skateboarder,under,on top of,0,366|137|38|54,273|79|71|99,500,333,to the right of|watching
+eval,2375066,/root/autodl-tmp/data/GQA/images/2375066.jpg,propeller,people,under,on top of,0,117|113|74|67,95|161|12|60,500,285,above
+eval,2391763,/root/autodl-tmp/data/GQA/images/2391763.jpg,chair,television,above,below,0,318|181|55|73,0|151|68|40,500,335,behind|in front of
+eval,2387947,/root/autodl-tmp/data/GQA/images/2387947.jpg,wing,cow,below,above,0,169|159|51|86,31|215|301|283,333,500,behind|to the left of
+eval,2330002,/root/autodl-tmp/data/GQA/images/2330002.jpg,head,mouse pad,under,on top of,0,421|59|78|98,367|189|132|77,500,375,on top of
+calib,2399534,/root/autodl-tmp/data/GQA/images/2399534.jpg,skate park,skateboarder,watching,watched by,1,2|158|497|170,273|79|71|99,500,333,to the right of|watching
+calib,2873,/root/autodl-tmp/data/GQA/images/2873.jpg,store,jeans,under,on top of,0,0|0|542|588,566|409|39|80,800,600,wearing
+calib,2404536,/root/autodl-tmp/data/GQA/images/2404536.jpg,arm,purse,next to,next to,0,353|150|72|101,155|311|35|85,500,425,carrying|holding
+eval,2376766,/root/autodl-tmp/data/GQA/images/2376766.jpg,sign,bench,riding,ridden by,0,441|126|19|56,141|236|193|60,500,374,under
+eval,2361354,/root/autodl-tmp/data/GQA/images/2361354.jpg,woman,car,in front of,behind,1,236|193|49|114,0|180|47|56,500,375,in front of|to the right of
+eval,2318442,/root/autodl-tmp/data/GQA/images/2318442.jpg,shower,toilet,wearing,worn by,0,186|0|186|453,188|372|57|118,375,500,behind
+calib,2411476,/root/autodl-tmp/data/GQA/images/2411476.jpg,man,napkin,to the left of,to the right of,0,121|121|56|87,326|306|69|34,500,375,to the right of
+eval,2362137,/root/autodl-tmp/data/GQA/images/2362137.jpg,man,bat,wearing,worn by,0,77|51|193|344,80|271|34|69,334,500,carrying|holding
+eval,2405229,/root/autodl-tmp/data/GQA/images/2405229.jpg,suit,platter,on top of,under,1,282|180|74|35,61|229|390|95,500,357,above|on top of
+calib,2367240,/root/autodl-tmp/data/GQA/images/2367240.jpg,bracelet,sandwich,in front of,behind,0,164|250|41|50,342|191|145|110,500,333,near
+eval,2341585,/root/autodl-tmp/data/GQA/images/2341585.jpg,bag,shop,holding,held by,0,70|215|68|75,307|0|193|309,500,331,in front of|to the left of
+calib,2361045,/root/autodl-tmp/data/GQA/images/2361045.jpg,feathers,branch,to the right of,to the left of,1,242|145|80|41,0|111|166|124,500,333,to the right of
+calib,2342152,/root/autodl-tmp/data/GQA/images/2342152.jpg,giraffe,rocks,in front of,behind,1,0|69|154|207,141|230|89|16,333,500,in front of|to the left of
+eval,2346025,/root/autodl-tmp/data/GQA/images/2346025.jpg,umbrella,bag,behind,in front of,0,144|8|203|110,89|65|63|120,500,333,carrying
+eval,2384672,/root/autodl-tmp/data/GQA/images/2384672.jpg,guy,shirt,below,above,0,246|97|96|216,176|114|77|96,500,331,to the left of|wearing
+calib,2341526,/root/autodl-tmp/data/GQA/images/2341526.jpg,fruit,plate,next to,next to,0,118|97|262|164,29|53|419|250,500,333,on top of
+eval,2341576,/root/autodl-tmp/data/GQA/images/2341576.jpg,monitor,screen,next to,next to,0,357|146|129|175,250|191|94|87,500,333,to the right of
+eval,2393461,/root/autodl-tmp/data/GQA/images/2393461.jpg,jeans,woman,to the right of,to the left of,0,289|283|111|216,20|48|123|421,435,500,below
+eval,2367922,/root/autodl-tmp/data/GQA/images/2367922.jpg,fence,rocks,to the right of,to the left of,1,247|0|143|68,116|154|257|112,500,375,to the right of
+calib,2360431,/root/autodl-tmp/data/GQA/images/2360431.jpg,spoon,lid,behind,in front of,0,418|168|48|170,155|111|102|96,500,500,below
+eval,2391385,/root/autodl-tmp/data/GQA/images/2391385.jpg,trees,cow,watching,watched by,0,163|12|100|74,203|62|295|237,500,346,below|near
+calib,2400343,/root/autodl-tmp/data/GQA/images/2400343.jpg,shelf,television,in front of,behind,1,374|173|29|41,24|74|156|131,500,375,in front of
+eval,2373169,/root/autodl-tmp/data/GQA/images/2373169.jpg,shirt,racket,on top of,under,0,358|90|73|70,417|117|59|42,500,332,holding
+calib,2406953,/root/autodl-tmp/data/GQA/images/2406953.jpg,branches,umbrella,to the left of,to the right of,0,145|35|45|39,159|101|102|70,500,333,holding|under
+calib,2414858,/root/autodl-tmp/data/GQA/images/2414858.jpg,hair,radio,carrying,carried by,1,299|23|114|122,442|203|34|126,500,334,carrying
+calib,2395942,/root/autodl-tmp/data/GQA/images/2395942.jpg,head,leg,on top of,under,1,101|194|48|69,163|272|20|32,209,500,on top of|to the right of
+eval,2408823,/root/autodl-tmp/data/GQA/images/2408823.jpg,mat,donuts,above,below,1,367|281|120|51,114|183|195|149,500,333,above
+calib,2360401,/root/autodl-tmp/data/GQA/images/2360401.jpg,utensils,cup,to the left of,to the right of,1,93|158|51|43,313|221|82|86,500,333,to the left of
+eval,2406564,/root/autodl-tmp/data/GQA/images/2406564.jpg,tiger,motorcycle,watching,watched by,1,19|279|140|113,17|136|313|323,331,500,watching
+eval,2399886,/root/autodl-tmp/data/GQA/images/2399886.jpg,chair,spoon,behind,in front of,0,105|0|295|48,419|172|50|94,500,281,near|to the left of
+eval,2322017,/root/autodl-tmp/data/GQA/images/2322017.jpg,ski,goggles,to the left of,to the right of,1,161|258|61|16,231|111|34|31,500,335,to the left of
+eval,2327321,/root/autodl-tmp/data/GQA/images/2327321.jpg,umbrella,purse,holding,held by,1,72|38|195|99,145|157|68|105,333,500,holding
+calib,2391600,/root/autodl-tmp/data/GQA/images/2391600.jpg,hand,plate,on top of,under,1,100|0|134|59,0|239|256|259,375,500,on top of
+calib,2406953,/root/autodl-tmp/data/GQA/images/2406953.jpg,umbrellas,umbrella,to the right of,to the left of,0,244|116|76|30,159|101|102|70,500,333,holding|under
+eval,2341576,/root/autodl-tmp/data/GQA/images/2341576.jpg,monitor,screen,to the right of,to the left of,1,357|146|129|175,250|191|94|87,500,333,to the right of
+eval,2355438,/root/autodl-tmp/data/GQA/images/2355438.jpg,baby,head,on top of,under,1,26|63|430|219,195|61|262|208,500,281,on top of
+eval,2375066,/root/autodl-tmp/data/GQA/images/2375066.jpg,propeller,people,above,below,1,117|113|74|67,95|161|12|60,500,285,above
+eval,2354282,/root/autodl-tmp/data/GQA/images/2354282.jpg,guy,bike,next to,next to,0,173|110|49|121,359|115|128|112,500,333,riding|to the right of
+calib,2414858,/root/autodl-tmp/data/GQA/images/2414858.jpg,hair,radio,above,below,0,299|23|114|122,442|203|34|126,500,334,carrying
+calib,2315601,/root/autodl-tmp/data/GQA/images/2315601.jpg,banana,man,in front of,behind,0,440|203|19|55,211|107|54|217,500,373,near|to the left of|to the right of
+calib,2367061,/root/autodl-tmp/data/GQA/images/2367061.jpg,rock,fence,carrying,carried by,0,459|177|41|27,14|108|486|106,500,332,behind
+eval,2387036,/root/autodl-tmp/data/GQA/images/2387036.jpg,chair,tank top,wearing,worn by,1,309|103|160|151,42|159|115|147,500,333,wearing
+eval,2406564,/root/autodl-tmp/data/GQA/images/2406564.jpg,shorts,motorcycle,watching,watched by,1,170|187|111|92,17|136|313|323,331,500,watching
+eval,2408823,/root/autodl-tmp/data/GQA/images/2408823.jpg,donut,donuts,wearing,worn by,0,85|239|69|86,114|183|195|149,500,333,above
+eval,2349444,/root/autodl-tmp/data/GQA/images/2349444.jpg,phone,pants,wearing,worn by,1,46|147|32|46,298|258|105|165,500,454,wearing
+eval,2384254,/root/autodl-tmp/data/GQA/images/2384254.jpg,bushes,umbrella,holding,held by,0,151|187|70|46,398|15|67|153,500,375,below
+calib,2372730,/root/autodl-tmp/data/GQA/images/2372730.jpg,banana,gloves,wearing,worn by,1,65|196|44|88,440|103|60|36,500,375,wearing
+eval,2349444,/root/autodl-tmp/data/GQA/images/2349444.jpg,phone,pants,holding,held by,0,46|147|32|46,298|258|105|165,500,454,wearing
+calib,2400343,/root/autodl-tmp/data/GQA/images/2400343.jpg,shelf,television,wearing,worn by,0,374|173|29|41,24|74|156|131,500,375,in front of
+calib,2391600,/root/autodl-tmp/data/GQA/images/2391600.jpg,hand,plate,to the left of,to the right of,0,100|0|134|59,0|239|256|259,375,500,on top of
+calib,2360431,/root/autodl-tmp/data/GQA/images/2360431.jpg,spoon,lid,below,above,1,418|168|48|170,155|111|102|96,500,500,below
+eval,2368037,/root/autodl-tmp/data/GQA/images/2368037.jpg,hair,woman,behind,in front of,1,177|4|86|80,136|4|223|371,500,375,behind
+eval,2408823,/root/autodl-tmp/data/GQA/images/2408823.jpg,donut,donuts,above,below,1,85|239|69|86,114|183|195|149,500,333,above
+calib,2407415,/root/autodl-tmp/data/GQA/images/2407415.jpg,car,driver,above,below,0,0|198|42|54,245|154|41|82,500,375,to the right of
+calib,2411655,/root/autodl-tmp/data/GQA/images/2411655.jpg,wire,traffic light,below,above,0,200|0|65|61,204|108|168|68,500,375,under
+eval,2371219,/root/autodl-tmp/data/GQA/images/2371219.jpg,pie,notebook,below,above,0,29|55|364|227,411|85|88|145,500,500,near
+calib,2360401,/root/autodl-tmp/data/GQA/images/2360401.jpg,utensils,cup,under,on top of,0,93|158|51|43,313|221|82|86,500,333,to the left of
+eval,2402403,/root/autodl-tmp/data/GQA/images/2402403.jpg,wings,camera,above,below,1,28|155|77|21,323|226|42|23,500,331,above
+eval,2324183,/root/autodl-tmp/data/GQA/images/2324183.jpg,feathers,birds,above,below,0,290|155|37|43,36|263|41|31,500,333,to the left of
+eval,2405229,/root/autodl-tmp/data/GQA/images/2405229.jpg,suit,platter,wearing,worn by,0,282|180|74|35,61|229|390|95,500,357,above|on top of
+calib,2363931,/root/autodl-tmp/data/GQA/images/2363931.jpg,girl,shorts,to the left of,to the right of,1,349|85|136|190,453|171|33|33,500,281,to the left of
+eval,2374063,/root/autodl-tmp/data/GQA/images/2374063.jpg,glass,table,on top of,under,1,403|307|42|53,49|112|296|44,500,375,on top of
+calib,2408827,/root/autodl-tmp/data/GQA/images/2408827.jpg,gloves,sauce,under,on top of,1,170|296|106|36,78|114|161|72,500,332,under
+calib,2403858,/root/autodl-tmp/data/GQA/images/2403858.jpg,tail,fence,above,below,1,15|179|35|35,4|236|495|96,500,333,above
+calib,2382358,/root/autodl-tmp/data/GQA/images/2382358.jpg,policeman,horse,riding,ridden by,1,319|28|115|210,332|122|146|253,500,375,riding
+eval,2406564,/root/autodl-tmp/data/GQA/images/2406564.jpg,man,motorcycle,watching,watched by,1,264|2|54|171,17|136|313|323,331,500,watching
+eval,2354282,/root/autodl-tmp/data/GQA/images/2354282.jpg,motorcycle,bike,in front of,behind,0,279|117|86|85,359|115|128|112,500,333,riding|to the right of
+eval,341,/root/autodl-tmp/data/GQA/images/341.jpg,woman,van,in front of,behind,1,173|351|41|102,547|331|74|68,800,600,in front of
+eval,2374063,/root/autodl-tmp/data/GQA/images/2374063.jpg,glass,table,near,near,0,403|307|42|53,49|112|296|44,500,375,on top of
+eval,2374177,/root/autodl-tmp/data/GQA/images/2374177.jpg,doors,elephant,in front of,behind,1,14|176|150|103,230|177|124|103,500,334,in front of|to the left of
+eval,2375154,/root/autodl-tmp/data/GQA/images/2375154.jpg,roof,umbrella,near,near,1,176|62|323|20,157|142|138|123,500,375,near
+calib,2381216,/root/autodl-tmp/data/GQA/images/2381216.jpg,head,hillside,near,near,1,248|111|51|67,1|1|358|104,500,329,near
+calib,2325391,/root/autodl-tmp/data/GQA/images/2325391.jpg,head,statue,below,above,1,302|122|50|59,390|213|32|41,500,333,below
+calib,2360431,/root/autodl-tmp/data/GQA/images/2360431.jpg,lettuce,lid,below,above,1,347|224|48|40,155|111|102|96,500,500,below
+eval,2388665,/root/autodl-tmp/data/GQA/images/2388665.jpg,lamps,bed,carrying,carried by,0,0|127|40|94,78|149|253|183,500,333,on top of
+eval,2375154,/root/autodl-tmp/data/GQA/images/2375154.jpg,roof,umbrella,above,below,0,176|62|323|20,157|142|138|123,500,375,near
+eval,2318427,/root/autodl-tmp/data/GQA/images/2318427.jpg,beer bottle,dish,next to,next to,1,162|183|51|60,351|29|133|134,500,333,next to|to the right of
+eval,2365702,/root/autodl-tmp/data/GQA/images/2365702.jpg,shore,horse,wearing,worn by,0,2|189|498|139,211|171|38|57,500,333,riding
+calib,2367240,/root/autodl-tmp/data/GQA/images/2367240.jpg,bracelet,sandwich,near,near,1,164|250|41|50,342|191|145|110,500,333,near
+calib,2359457,/root/autodl-tmp/data/GQA/images/2359457.jpg,characters,fork,under,on top of,1,1|170|485|330,326|387|174|57,500,500,under
+eval,2384672,/root/autodl-tmp/data/GQA/images/2384672.jpg,guy,shirt,wearing,worn by,1,246|97|96|216,176|114|77|96,500,331,to the left of|wearing
+eval,2391205,/root/autodl-tmp/data/GQA/images/2391205.jpg,foot,sand,above,below,1,215|400|36|28,0|191|375|309,375,500,above
+eval,2386698,/root/autodl-tmp/data/GQA/images/2386698.jpg,table,lamp,under,on top of,1,184|83|270|51,429|20|28|44,500,134,under
+eval,2387947,/root/autodl-tmp/data/GQA/images/2387947.jpg,wing,cow,to the left of,to the right of,1,169|159|51|86,31|215|301|283,333,500,behind|to the left of
+eval,2339847,/root/autodl-tmp/data/GQA/images/2339847.jpg,keyboard,laptop,behind,in front of,1,417|247|82|34,301|126|33|44,500,333,behind|to the left of
+calib,2403858,/root/autodl-tmp/data/GQA/images/2403858.jpg,tail,fence,under,on top of,0,15|179|35|35,4|236|495|96,500,333,above
+eval,2335455,/root/autodl-tmp/data/GQA/images/2335455.jpg,star,motorcycle,riding,ridden by,1,266|140|33|26,106|98|311|178,500,333,riding
+eval,2331876,/root/autodl-tmp/data/GQA/images/2331876.jpg,person,paper,above,below,0,150|0|283|53,33|62|320|232,500,334,on top of
+eval,2391275,/root/autodl-tmp/data/GQA/images/2391275.jpg,bathtub,toilet,next to,next to,1,89|165|324|150,0|179|210|153,500,333,next to
+calib,2381216,/root/autodl-tmp/data/GQA/images/2381216.jpg,head,hillside,behind,in front of,0,248|111|51|67,1|1|358|104,500,329,near
+eval,2410495,/root/autodl-tmp/data/GQA/images/2410495.jpg,chair,paper,behind,in front of,0,0|2|224|140,3|149|350|285,375,500,above
+calib,2342152,/root/autodl-tmp/data/GQA/images/2342152.jpg,head,fence,above,below,1,242|183|53|72,1|331|331|169,333,500,above|behind
+eval,2374177,/root/autodl-tmp/data/GQA/images/2374177.jpg,doors,elephant,riding,ridden by,0,14|176|150|103,230|177|124|103,500,334,in front of|to the left of
+calib,2402492,/root/autodl-tmp/data/GQA/images/2402492.jpg,keyboard,girl,below,above,0,84|252|243|122,141|90|122|93,500,375,to the right of
+calib,2348133,/root/autodl-tmp/data/GQA/images/2348133.jpg,pole,bus,under,on top of,0,84|171|33|204,0|168|500|207,500,375,in front of
+calib,2413325,/root/autodl-tmp/data/GQA/images/2413325.jpg,post,jeans,to the right of,to the left of,1,176|257|30|76,317|303|72|30,500,333,to the right of
+eval,2358790,/root/autodl-tmp/data/GQA/images/2358790.jpg,shoe,onion,to the left of,to the right of,1,228|329|39|29,162|273|33|37,375,500,to the left of
+eval,2350006,/root/autodl-tmp/data/GQA/images/2350006.jpg,hat,skis,to the right of,to the left of,0,261|34|21|32,236|75|67|59,500,206,carrying
+calib,2408827,/root/autodl-tmp/data/GQA/images/2408827.jpg,gloves,sauce,near,near,0,170|296|106|36,78|114|161|72,500,332,under
+calib,2342152,/root/autodl-tmp/data/GQA/images/2342152.jpg,arm,fence,above,below,1,162|267|27|51,1|331|331|169,333,500,above|behind
+calib,2348133,/root/autodl-tmp/data/GQA/images/2348133.jpg,pole,bus,in front of,behind,1,84|171|33|204,0|168|500|207,500,375,in front of
+eval,2346025,/root/autodl-tmp/data/GQA/images/2346025.jpg,umbrella,bag,carrying,carried by,1,144|8|203|110,89|65|63|120,500,333,carrying
+calib,2372730,/root/autodl-tmp/data/GQA/images/2372730.jpg,banana,gloves,to the right of,to the left of,0,65|196|44|88,440|103|60|36,500,375,wearing
+eval,2391385,/root/autodl-tmp/data/GQA/images/2391385.jpg,trees,cow,below,above,1,163|12|100|74,203|62|295|237,500,346,below|near
+eval,2346025,/root/autodl-tmp/data/GQA/images/2346025.jpg,woman,bag,carrying,carried by,1,170|116|43|157,89|65|63|120,500,333,carrying
+eval,2384254,/root/autodl-tmp/data/GQA/images/2384254.jpg,bushes,umbrella,below,above,1,151|187|70|46,398|15|67|153,500,375,below
+eval,2406564,/root/autodl-tmp/data/GQA/images/2406564.jpg,shorts,motorcycle,to the left of,to the right of,0,170|187|111|92,17|136|313|323,331,500,watching
+eval,2335455,/root/autodl-tmp/data/GQA/images/2335455.jpg,star,motorcycle,above,below,0,266|140|33|26,106|98|311|178,500,333,riding
+calib,2873,/root/autodl-tmp/data/GQA/images/2873.jpg,store,jeans,wearing,worn by,1,0|0|542|588,566|409|39|80,800,600,wearing
+eval,2363785,/root/autodl-tmp/data/GQA/images/2363785.jpg,sandwich,plate,below,above,0,224|29|195|198,0|9|69|66,500,307,on top of|to the right of
+eval,2330666,/root/autodl-tmp/data/GQA/images/2330666.jpg,jeans,kites,watching,watched by,1,239|226|50|87,102|21|120|122,500,333,watching
+calib,2403439,/root/autodl-tmp/data/GQA/images/2403439.jpg,clouds,platform,to the left of,to the right of,0,421|1|78|69,0|233|288|142,500,375,near|next to
+eval,713411,/root/autodl-tmp/data/GQA/images/713411.jpg,sign,motorcycle,riding,ridden by,1,591|89|37|227,358|528|53|99,1024,768,riding|to the left of|to the right of
+eval,2401748,/root/autodl-tmp/data/GQA/images/2401748.jpg,plate,tablecloth,wearing,worn by,0,54|26|382|253,322|56|176|225,500,281,to the left of
+eval,2339847,/root/autodl-tmp/data/GQA/images/2339847.jpg,keyboard,laptop,above,below,0,417|247|82|34,301|126|33|44,500,333,behind|to the left of
+eval,2358790,/root/autodl-tmp/data/GQA/images/2358790.jpg,shoe,onion,next to,next to,0,228|329|39|29,162|273|33|37,375,500,to the left of
+calib,2399534,/root/autodl-tmp/data/GQA/images/2399534.jpg,skate park,skateboarder,under,on top of,0,2|158|497|170,273|79|71|99,500,333,to the right of|watching
+eval,2393461,/root/autodl-tmp/data/GQA/images/2393461.jpg,jeans,woman,below,above,1,289|283|111|216,20|48|123|421,435,500,below
+calib,2397873,/root/autodl-tmp/data/GQA/images/2397873.jpg,bushes,bridge,below,above,0,110|165|244|78,0|113|376|51,500,375,under
+calib,2365505,/root/autodl-tmp/data/GQA/images/2365505.jpg,man,box,behind,in front of,0,371|0|101|333,331|66|69|71,500,333,next to|to the left of
+eval,2354282,/root/autodl-tmp/data/GQA/images/2354282.jpg,guy,bike,riding,ridden by,1,173|110|49|121,359|115|128|112,500,333,riding|to the right of
+eval,1066,/root/autodl-tmp/data/GQA/images/1066.jpg,doll,stuffed bear,below,above,1,268|228|39|59,580|113|40|52,640,480,below|near
+calib,2374543,/root/autodl-tmp/data/GQA/images/2374543.jpg,bench,shirt,wearing,worn by,1,0|152|393|203,250|78|123|113,500,375,wearing
+calib,2381256,/root/autodl-tmp/data/GQA/images/2381256.jpg,ladder,roadway,next to,next to,1,452|148|43|184,0|130|415|202,500,333,next to
+calib,2407415,/root/autodl-tmp/data/GQA/images/2407415.jpg,car,driver,to the right of,to the left of,1,0|198|42|54,245|154|41|82,500,375,to the right of
+calib,2393683,/root/autodl-tmp/data/GQA/images/2393683.jpg,shirt,racket,near,near,0,141|127|103|111,144|166|95|81,333,500,carrying|holding

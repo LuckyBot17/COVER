@@ -1,0 +1,17 @@
+[info] ablation sample: 40 claims (true 20)
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00, 14.10it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00, 14.74it/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.48, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+[progress] 5/40
+[progress] 10/40
+[progress] 15/40
+[progress] 20/40
+[progress] 25/40
+[progress] 30/40
+[progress] 35/40
+[progress] 40/40
+
+=== mask-type ablation (identity view, both-entity mask) ===
+  gray  : median_drop true=+1.523 false=+0.586 g=+0.938 | AUROC(d)=0.699 | mean true/false = +1.801/+1.082
+  mean  : median_drop true=+1.430 false=+0.766 g=+0.664 | AUROC(d)=0.700 | mean true/false = +1.816/+1.170
+  blur  : median_drop true=+1.930 false=+0.633 g=+1.297 | AUROC(d)=0.752 | mean true/false = +2.048/+1.274
+[done] wrote ablation.csv

@@ -1,0 +1,37 @@
+[info] 280 claims, 0 already scored
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00, 12.62it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00, 13.64it/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.48, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+[info] model loaded on cuda; yes_id=3869 no_id=1939
+[progress] 10/280 (newly scored this run: 10)
+[progress] 20/280 (newly scored this run: 20)
+[progress] 30/280 (newly scored this run: 30)
+[progress] 40/280 (newly scored this run: 40)
+[progress] 50/280 (newly scored this run: 50)
+[progress] 60/280 (newly scored this run: 60)
+[progress] 70/280 (newly scored this run: 70)
+[progress] 80/280 (newly scored this run: 80)
+[progress] 90/280 (newly scored this run: 90)
+[progress] 100/280 (newly scored this run: 100)
+[progress] 110/280 (newly scored this run: 110)
+[progress] 120/280 (newly scored this run: 120)
+[progress] 130/280 (newly scored this run: 130)
+[progress] 140/280 (newly scored this run: 140)
+[progress] 150/280 (newly scored this run: 150)
+[progress] 160/280 (newly scored this run: 160)
+[progress] 170/280 (newly scored this run: 170)
+[progress] 180/280 (newly scored this run: 180)
+[progress] 190/280 (newly scored this run: 190)
+[progress] 200/280 (newly scored this run: 200)
+[progress] 210/280 (newly scored this run: 210)
+[progress] 220/280 (newly scored this run: 220)
+[progress] 230/280 (newly scored this run: 230)
+[progress] 240/280 (newly scored this run: 240)
+[progress] 250/280 (newly scored this run: 250)
+[progress] 260/280 (newly scored this run: 260)
+[progress] 270/280 (newly scored this run: 270)
+[progress] 280/280 (newly scored this run: 280)
+[info] kept operators: []
+[info] calibration b: {}
+[info] calibration g: {}
+[info] eval claims: 0 (true 0, false 0)
+too few eval claims

@@ -1,0 +1,1509 @@
+{
+  "setup": {
+    "std_imgs": 212,
+    "conf_imgs": 212,
+    "std_claims": 263,
+    "conf_claims": 256
+  },
+  "alphas": [
+    0.01,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.5
+  ],
+  "note": "q calibrated on conf-half FALSE scores",
+  "non-spatial": {
+    "scope": "non-spatial",
+    "n_conf_false": 34,
+    "n_eval_true": 483,
+    "n_eval_false": 67,
+    "operators_kept": [
+      "d_id:o",
+      "d_id:s",
+      "d_id:so",
+      "d_inv:o",
+      "d_inv:s",
+      "d_inv:so"
+    ],
+    "COVER_A(lam0)": [
+      {
+        "alpha": 0.01,
+        "q": -2.1472,
+        "coverage": 0.0952,
+        "coverage_ci": [
+          0.0744,
+          0.1148
+        ],
+        "risk": 0.0149,
+        "risk_ci": [
+          0.0,
+          0.0263
+        ],
+        "n_acc_true": 46,
+        "n_acc_false": 1
+      },
+      {
+        "alpha": 0.05,
+        "q": -2.1472,
+        "coverage": 0.0952,
+        "coverage_ci": [
+          0.0744,
+          0.1148
+        ],
+        "risk": 0.0149,
+        "risk_ci": [
+          0.0,
+          0.0263
+        ],
+        "n_acc_true": 46,
+        "n_acc_false": 1
+      },
+      {
+        "alpha": 0.1,
+        "q": -1.0918,
+        "coverage": 0.4658,
+        "coverage_ci": [
+          0.4319,
+          0.5
+        ],
+        "risk": 0.194,
+        "risk_ci": [
+          0.119,
+          0.2632
+        ],
+        "n_acc_true": 225,
+        "n_acc_false": 13
+      },
+      {
+        "alpha": 0.2,
+        "q": -0.381,
+        "coverage": 0.7226,
+        "coverage_ci": [
+          0.6901,
+          0.7533
+        ],
+        "risk": 0.3731,
+        "risk_ci": [
+          0.2821,
+          0.4634
+        ],
+        "n_acc_true": 349,
+        "n_acc_false": 25
+      },
+      {
+        "alpha": 0.3,
+        "q": -0.1948,
+        "coverage": 0.7867,
+        "coverage_ci": [
+          0.758,
+          0.8137
+        ],
+        "risk": 0.4478,
+        "risk_ci": [
+          0.3571,
+          0.5455
+        ],
+        "n_acc_true": 380,
+        "n_acc_false": 30
+      },
+      {
+        "alpha": 0.5,
+        "q": 0.2761,
+        "coverage": 0.9089,
+        "coverage_ci": [
+          0.8885,
+          0.929
+        ],
+        "risk": 0.6418,
+        "risk_ci": [
+          0.5556,
+          0.7317
+        ],
+        "n_acc_true": 439,
+        "n_acc_false": 43
+      }
+    ],
+    "raw_conf": [
+      {
+        "alpha": 0.01,
+        "q": -6.4375,
+        "coverage": 0.0663,
+        "coverage_ci": [
+          0.0497,
+          0.0822
+        ],
+        "risk": 0.0448,
+        "risk_ci": [
+          0.0,
+          0.075
+        ],
+        "n_acc_true": 32,
+        "n_acc_false": 3
+      },
+      {
+        "alpha": 0.05,
+        "q": -6.4375,
+        "coverage": 0.0663,
+        "coverage_ci": [
+          0.0497,
+          0.0822
+        ],
+        "risk": 0.0448,
+        "risk_ci": [
+          0.0,
+          0.075
+        ],
+        "n_acc_true": 32,
+        "n_acc_false": 3
+      },
+      {
+        "alpha": 0.1,
+        "q": -5.6719,
+        "coverage": 0.1967,
+        "coverage_ci": [
+          0.1689,
+          0.2244
+        ],
+        "risk": 0.0746,
+        "risk_ci": [
+          0.0227,
+          0.122
+        ],
+        "n_acc_true": 95,
+        "n_acc_false": 5
+      },
+      {
+        "alpha": 0.2,
+        "q": -3.8438,
+        "coverage": 0.5652,
+        "coverage_ci": [
+          0.5298,
+          0.6025
+        ],
+        "risk": 0.3134,
+        "risk_ci": [
+          0.2273,
+          0.4
+        ],
+        "n_acc_true": 273,
+        "n_acc_false": 21
+      },
+      {
+        "alpha": 0.3,
+        "q": -3.7188,
+        "coverage": 0.5963,
+        "coverage_ci": [
+          0.5609,
+          0.6314
+        ],
+        "risk": 0.3284,
+        "risk_ci": [
+          0.2391,
+          0.4146
+        ],
+        "n_acc_true": 288,
+        "n_acc_false": 22
+      },
+      {
+        "alpha": 0.5,
+        "q": -2.1406,
+        "coverage": 0.8364,
+        "coverage_ci": [
+          0.8108,
+          0.8619
+        ],
+        "risk": 0.6119,
+        "risk_ci": [
+          0.5227,
+          0.7
+        ],
+        "n_acc_true": 404,
+        "n_acc_false": 41
+      }
+    ]
+  },
+  "all": {
+    "scope": "all",
+    "n_conf_false": 42,
+    "n_eval_true": 692,
+    "n_eval_false": 120,
+    "operators_kept": [
+      "d_id:o",
+      "d_id:s",
+      "d_id:so",
+      "d_inv:o",
+      "d_inv:s",
+      "d_inv:so"
+    ],
+    "COVER_A(lam0)": [
+      {
+        "alpha": 0.01,
+        "q": -2.4664,
+        "coverage": 0.0694,
+        "coverage_ci": [
+          0.0544,
+          0.0831
+        ],
+        "risk": 0.025,
+        "risk_ci": [
+          0.0,
+          0.0417
+        ],
+        "n_acc_true": 48,
+        "n_acc_false": 3
+      },
+      {
+        "alpha": 0.05,
+        "q": -1.5738,
+        "coverage": 0.2775,
+        "coverage_ci": [
+          0.2511,
+          0.3039
+        ],
+        "risk": 0.1083,
+        "risk_ci": [
+          0.0658,
+          0.1486
+        ],
+        "n_acc_true": 192,
+        "n_acc_false": 13
+      },
+      {
+        "alpha": 0.1,
+        "q": -1.077,
+        "coverage": 0.4581,
+        "coverage_ci": [
+          0.4282,
+          0.4861
+        ],
+        "risk": 0.225,
+        "risk_ci": [
+          0.1643,
+          0.2821
+        ],
+        "n_acc_true": 317,
+        "n_acc_false": 27
+      },
+      {
+        "alpha": 0.2,
+        "q": -0.4953,
+        "coverage": 0.6416,
+        "coverage_ci": [
+          0.6128,
+          0.6675
+        ],
+        "risk": 0.35,
+        "risk_ci": [
+          0.2838,
+          0.4156
+        ],
+        "n_acc_true": 444,
+        "n_acc_false": 42
+      },
+      {
+        "alpha": 0.3,
+        "q": -0.1943,
+        "coverage": 0.7428,
+        "coverage_ci": [
+          0.7176,
+          0.7657
+        ],
+        "risk": 0.45,
+        "risk_ci": [
+          0.3827,
+          0.5205
+        ],
+        "n_acc_true": 514,
+        "n_acc_false": 54
+      },
+      {
+        "alpha": 0.5,
+        "q": 0.2235,
+        "coverage": 0.8699,
+        "coverage_ci": [
+          0.8502,
+          0.8887
+        ],
+        "risk": 0.5833,
+        "risk_ci": [
+          0.519,
+          0.6501
+        ],
+        "n_acc_true": 602,
+        "n_acc_false": 70
+      }
+    ],
+    "raw_conf": [
+      {
+        "alpha": 0.01,
+        "q": -6.4375,
+        "coverage": 0.0564,
+        "coverage_ci": [
+          0.044,
+          0.0694
+        ],
+        "risk": 0.0333,
+        "risk_ci": [
+          0.0123,
+          0.0548
+        ],
+        "n_acc_true": 39,
+        "n_acc_false": 4
+      },
+      {
+        "alpha": 0.05,
+        "q": -6.2812,
+        "coverage": 0.0723,
+        "coverage_ci": [
+          0.0583,
+          0.0866
+        ],
+        "risk": 0.05,
+        "risk_ci": [
+          0.0137,
+          0.0789
+        ],
+        "n_acc_true": 50,
+        "n_acc_false": 6
+      },
+      {
+        "alpha": 0.1,
+        "q": -4.75,
+        "coverage": 0.3324,
+        "coverage_ci": [
+          0.3057,
+          0.3583
+        ],
+        "risk": 0.1583,
+        "risk_ci": [
+          0.1053,
+          0.2083
+        ],
+        "n_acc_true": 230,
+        "n_acc_false": 19
+      },
+      {
+        "alpha": 0.2,
+        "q": -3.8906,
+        "coverage": 0.5361,
+        "coverage_ci": [
+          0.5067,
+          0.5645
+        ],
+        "risk": 0.3,
+        "risk_ci": [
+          0.2368,
+          0.3611
+        ],
+        "n_acc_true": 371,
+        "n_acc_false": 36
+      },
+      {
+        "alpha": 0.3,
+        "q": -3.7188,
+        "coverage": 0.5694,
+        "coverage_ci": [
+          0.5397,
+          0.5977
+        ],
+        "risk": 0.3083,
+        "risk_ci": [
+          0.2436,
+          0.3714
+        ],
+        "n_acc_true": 394,
+        "n_acc_false": 37
+      },
+      {
+        "alpha": 0.5,
+        "q": -2.1719,
+        "coverage": 0.8208,
+        "coverage_ci": [
+          0.7976,
+          0.8434
+        ],
+        "risk": 0.6,
+        "risk_ci": [
+          0.5366,
+          0.6712
+        ],
+        "n_acc_true": 568,
+        "n_acc_false": 72
+      }
+    ]
+  },
+  "spatial": {
+    "scope": "spatial",
+    "n_conf_false": 8,
+    "n_eval_true": 209,
+    "n_eval_false": 53,
+    "operators_kept": [
+      "d_id:o",
+      "d_id:s",
+      "d_id:so",
+      "d_inv:o",
+      "d_inv:s",
+      "d_inv:so"
+    ],
+    "COVER_A(lam0)": [
+      {
+        "alpha": 0.01,
+        "q": -1.7617,
+        "coverage": 0.3014,
+        "coverage_ci": [
+          0.2538,
+          0.3482
+        ],
+        "risk": 0.2264,
+        "risk_ci": [
+          0.1429,
+          0.3143
+        ],
+        "n_acc_true": 63,
+        "n_acc_false": 12
+      },
+      {
+        "alpha": 0.05,
+        "q": -1.7617,
+        "coverage": 0.3014,
+        "coverage_ci": [
+          0.2538,
+          0.3482
+        ],
+        "risk": 0.2264,
+        "risk_ci": [
+          0.1429,
+          0.3143
+        ],
+        "n_acc_true": 63,
+        "n_acc_false": 12
+      },
+      {
+        "alpha": 0.1,
+        "q": -1.7617,
+        "coverage": 0.3014,
+        "coverage_ci": [
+          0.2538,
+          0.3482
+        ],
+        "risk": 0.2264,
+        "risk_ci": [
+          0.1429,
+          0.3143
+        ],
+        "n_acc_true": 63,
+        "n_acc_false": 12
+      },
+      {
+        "alpha": 0.2,
+        "q": -1.7617,
+        "coverage": 0.3014,
+        "coverage_ci": [
+          0.2538,
+          0.3482
+        ],
+        "risk": 0.2264,
+        "risk_ci": [
+          0.1429,
+          0.3143
+        ],
+        "n_acc_true": 63,
+        "n_acc_false": 12
+      },
+      {
+        "alpha": 0.3,
+        "q": -0.6662,
+        "coverage": 0.5933,
+        "coverage_ci": [
+          0.544,
+          0.6429
+        ],
+        "risk": 0.3774,
+        "risk_ci": [
+          0.2727,
+          0.4722
+        ],
+        "n_acc_true": 124,
+        "n_acc_false": 20
+      },
+      {
+        "alpha": 0.5,
+        "q": -0.0967,
+        "coverage": 0.7464,
+        "coverage_ci": [
+          0.705,
+          0.7907
+        ],
+        "risk": 0.566,
+        "risk_ci": [
+          0.4705,
+          0.6667
+        ],
+        "n_acc_true": 156,
+        "n_acc_false": 30
+      }
+    ],
+    "raw_conf": [
+      {
+        "alpha": 0.01,
+        "q": -4.75,
+        "coverage": 0.2632,
+        "coverage_ci": [
+          0.2197,
+          0.3083
+        ],
+        "risk": 0.1887,
+        "risk_ci": [
+          0.1034,
+          0.2648
+        ],
+        "n_acc_true": 55,
+        "n_acc_false": 10
+      },
+      {
+        "alpha": 0.05,
+        "q": -4.75,
+        "coverage": 0.2632,
+        "coverage_ci": [
+          0.2197,
+          0.3083
+        ],
+        "risk": 0.1887,
+        "risk_ci": [
+          0.1034,
+          0.2648
+        ],
+        "n_acc_true": 55,
+        "n_acc_false": 10
+      },
+      {
+        "alpha": 0.1,
+        "q": -4.75,
+        "coverage": 0.2632,
+        "coverage_ci": [
+          0.2197,
+          0.3083
+        ],
+        "risk": 0.1887,
+        "risk_ci": [
+          0.1034,
+          0.2648
+        ],
+        "n_acc_true": 55,
+        "n_acc_false": 10
+      },
+      {
+        "alpha": 0.2,
+        "q": -4.75,
+        "coverage": 0.2632,
+        "coverage_ci": [
+          0.2197,
+          0.3083
+        ],
+        "risk": 0.1887,
+        "risk_ci": [
+          0.1034,
+          0.2648
+        ],
+        "n_acc_true": 55,
+        "n_acc_false": 10
+      },
+      {
+        "alpha": 0.3,
+        "q": -3.8906,
+        "coverage": 0.4785,
+        "coverage_ci": [
+          0.4286,
+          0.5318
+        ],
+        "risk": 0.283,
+        "risk_ci": [
+          0.1875,
+          0.375
+        ],
+        "n_acc_true": 100,
+        "n_acc_false": 15
+      },
+      {
+        "alpha": 0.5,
+        "q": -2.6094,
+        "coverage": 0.7273,
+        "coverage_ci": [
+          0.6818,
+          0.7744
+        ],
+        "risk": 0.5283,
+        "risk_ci": [
+          0.4242,
+          0.6333
+        ],
+        "n_acc_true": 152,
+        "n_acc_false": 28
+      }
+    ]
+  },
+  "stratified": {
+    "non-spatial": [
+      {
+        "stratum": "低",
+        "n_conf_false": 21,
+        "n_true": 119,
+        "n_false": 34,
+        "COVER_A(lam0)": {
+          "q": -0.5869,
+          "coverage": 0.2689,
+          "coverage_ci": [
+            0.2105,
+            0.3248
+          ],
+          "risk": 0.1471,
+          "risk_ci": [
+            0.0476,
+            0.2273
+          ]
+        },
+        "raw_conf": {
+          "q": -2.1875,
+          "coverage": 0.3025,
+          "coverage_ci": [
+            0.24,
+            0.3623
+          ],
+          "risk": 0.2059,
+          "risk_ci": [
+            0.0952,
+            0.3043
+          ]
+        }
+      },
+      {
+        "stratum": "中",
+        "n_conf_false": 10,
+        "n_true": 185,
+        "n_false": 24,
+        "COVER_A(lam0)": {
+          "q": -2.1472,
+          "coverage": 0.0378,
+          "coverage_ci": [
+            0.0169,
+            0.0593
+          ],
+          "risk": 0.0,
+          "risk_ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "raw_conf": {
+          "q": -4.6875,
+          "coverage": 0.0,
+          "coverage_ci": [
+            0.0,
+            0.0
+          ],
+          "risk": 0.0,
+          "risk_ci": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "stratum": "高",
+        "n_conf_false": 3,
+        "n_true": 179,
+        "n_false": 9,
+        "COVER_A(lam0)": {
+          "q": -1.0918,
+          "coverage": 0.7709,
+          "coverage_ci": [
+            0.7222,
+            0.8182
+          ],
+          "risk": 0.5556,
+          "risk_ci": [
+            0.25,
+            0.8
+          ]
+        },
+        "raw_conf": {
+          "q": -6.4375,
+          "coverage": 0.1788,
+          "coverage_ci": [
+            0.1351,
+            0.2202
+          ],
+          "risk": 0.3333,
+          "risk_ci": [
+            0.0,
+            0.6
+          ]
+        }
+      }
+    ],
+    "all": [
+      {
+        "stratum": "低",
+        "n_conf_false": 28,
+        "n_true": 212,
+        "n_false": 67,
+        "COVER_A(lam0)": {
+          "q": -0.7051,
+          "coverage": 0.2547,
+          "coverage_ci": [
+            0.2117,
+            0.2971
+          ],
+          "risk": 0.1045,
+          "risk_ci": [
+            0.0476,
+            0.1591
+          ]
+        },
+        "raw_conf": {
+          "q": -2.8906,
+          "coverage": 0.1226,
+          "coverage_ci": [
+            0.0863,
+            0.1567
+          ],
+          "risk": 0.0597,
+          "risk_ci": [
+            0.0222,
+            0.0976
+          ]
+        }
+      },
+      {
+        "stratum": "中",
+        "n_conf_false": 9,
+        "n_true": 240,
+        "n_false": 32,
+        "COVER_A(lam0)": {
+          "q": -2.4664,
+          "coverage": 0.025,
+          "coverage_ci": [
+            0.0071,
+            0.0395
+          ],
+          "risk": 0.0,
+          "risk_ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "raw_conf": {
+          "q": -4.6406,
+          "coverage": 0.025,
+          "coverage_ci": [
+            0.0069,
+            0.0392
+          ],
+          "risk": 0.0625,
+          "risk_ci": [
+            0.0,
+            0.1111
+          ]
+        }
+      },
+      {
+        "stratum": "高",
+        "n_conf_false": 5,
+        "n_true": 240,
+        "n_false": 21,
+        "COVER_A(lam0)": {
+          "q": -1.3028,
+          "coverage": 0.6667,
+          "coverage_ci": [
+            0.6207,
+            0.7105
+          ],
+          "risk": 0.4762,
+          "risk_ci": [
+            0.3077,
+            0.6429
+          ]
+        },
+        "raw_conf": {
+          "q": -6.4375,
+          "coverage": 0.1625,
+          "coverage_ci": [
+            0.1258,
+            0.1962
+          ],
+          "risk": 0.1905,
+          "risk_ci": [
+            0.0714,
+            0.3077
+          ]
+        }
+      }
+    ]
+  },
+  "partB": {
+    "non-spatial": {
+      "a0.05": {
+        "q": -2.2921,
+        "n_conf_false": 34,
+        "ACCEPT": 46,
+        "REPAIR": 17,
+        "ABSTAIN": 487,
+        "on_true": {
+          "ACCEPT": 43,
+          "REPAIR": 14,
+          "ABSTAIN": 426
+        },
+        "on_false": {
+          "ACCEPT": 3,
+          "REPAIR": 3,
+          "ABSTAIN": 61
+        },
+        "flip": {
+          "t": 14,
+          "t_n": 14,
+          "f": 3,
+          "f_n": 3
+        }
+      },
+      "a0.1": {
+        "q": -1.1295,
+        "n_conf_false": 34,
+        "ACCEPT": 71,
+        "REPAIR": 74,
+        "ABSTAIN": 405,
+        "on_true": {
+          "ACCEPT": 64,
+          "REPAIR": 68,
+          "ABSTAIN": 351
+        },
+        "on_false": {
+          "ACCEPT": 7,
+          "REPAIR": 6,
+          "ABSTAIN": 54
+        },
+        "flip": {
+          "t": 68,
+          "t_n": 68,
+          "f": 6,
+          "f_n": 6
+        }
+      },
+      "a0.2": {
+        "q": -0.6141,
+        "n_conf_false": 34,
+        "ACCEPT": 74,
+        "REPAIR": 76,
+        "ABSTAIN": 400,
+        "on_true": {
+          "ACCEPT": 63,
+          "REPAIR": 69,
+          "ABSTAIN": 351
+        },
+        "on_false": {
+          "ACCEPT": 11,
+          "REPAIR": 7,
+          "ABSTAIN": 49
+        },
+        "flip": {
+          "t": 69,
+          "t_n": 69,
+          "f": 7,
+          "f_n": 7
+        }
+      }
+    },
+    "all": {
+      "a0.05": {
+        "q": -1.7298,
+        "n_conf_false": 42,
+        "ACCEPT": 83,
+        "REPAIR": 83,
+        "ABSTAIN": 646,
+        "on_true": {
+          "ACCEPT": 76,
+          "REPAIR": 73,
+          "ABSTAIN": 543
+        },
+        "on_false": {
+          "ACCEPT": 7,
+          "REPAIR": 10,
+          "ABSTAIN": 103
+        },
+        "flip": {
+          "t": 73,
+          "t_n": 73,
+          "f": 10,
+          "f_n": 10
+        }
+      },
+      "a0.1": {
+        "q": -1.1346,
+        "n_conf_false": 42,
+        "ACCEPT": 94,
+        "REPAIR": 114,
+        "ABSTAIN": 604,
+        "on_true": {
+          "ACCEPT": 85,
+          "REPAIR": 103,
+          "ABSTAIN": 504
+        },
+        "on_false": {
+          "ACCEPT": 9,
+          "REPAIR": 11,
+          "ABSTAIN": 100
+        },
+        "flip": {
+          "t": 103,
+          "t_n": 103,
+          "f": 11,
+          "f_n": 11
+        }
+      },
+      "a0.2": {
+        "q": -0.7075,
+        "n_conf_false": 42,
+        "ACCEPT": 101,
+        "REPAIR": 101,
+        "ABSTAIN": 610,
+        "on_true": {
+          "ACCEPT": 88,
+          "REPAIR": 89,
+          "ABSTAIN": 515
+        },
+        "on_false": {
+          "ACCEPT": 13,
+          "REPAIR": 12,
+          "ABSTAIN": 95
+        },
+        "flip": {
+          "t": 89,
+          "t_n": 89,
+          "f": 12,
+          "f_n": 12
+        }
+      }
+    }
+  },
+  "sensitivity_fullcalib_q": {
+    "non-spatial": {
+      "scope": "non-spatial",
+      "n_conf_false": 63,
+      "n_eval_true": 483,
+      "n_eval_false": 67,
+      "operators_kept": [
+        "d_id:o",
+        "d_id:s",
+        "d_id:so",
+        "d_inv:o",
+        "d_inv:s",
+        "d_inv:so"
+      ],
+      "COVER_A(lam0)": [
+        {
+          "alpha": 0.01,
+          "q": -2.1472,
+          "coverage": 0.0952,
+          "coverage_ci": [
+            0.0744,
+            0.1148
+          ],
+          "risk": 0.0149,
+          "risk_ci": [
+            0.0,
+            0.0263
+          ],
+          "n_acc_true": 46,
+          "n_acc_false": 1
+        },
+        {
+          "alpha": 0.05,
+          "q": -1.3366,
+          "coverage": 0.3727,
+          "coverage_ci": [
+            0.3389,
+            0.4063
+          ],
+          "risk": 0.1343,
+          "risk_ci": [
+            0.0698,
+            0.1951
+          ],
+          "n_acc_true": 180,
+          "n_acc_false": 9
+        },
+        {
+          "alpha": 0.1,
+          "q": -0.9691,
+          "coverage": 0.5217,
+          "coverage_ci": [
+            0.4863,
+            0.5566
+          ],
+          "risk": 0.194,
+          "risk_ci": [
+            0.119,
+            0.2632
+          ],
+          "n_acc_true": 252,
+          "n_acc_false": 13
+        },
+        {
+          "alpha": 0.2,
+          "q": -0.6176,
+          "coverage": 0.6625,
+          "coverage_ci": [
+            0.6301,
+            0.6941
+          ],
+          "risk": 0.3134,
+          "risk_ci": [
+            0.2308,
+            0.3959
+          ],
+          "n_acc_true": 320,
+          "n_acc_false": 21
+        },
+        {
+          "alpha": 0.3,
+          "q": -0.381,
+          "coverage": 0.7226,
+          "coverage_ci": [
+            0.6901,
+            0.7533
+          ],
+          "risk": 0.3731,
+          "risk_ci": [
+            0.2821,
+            0.4634
+          ],
+          "n_acc_true": 349,
+          "n_acc_false": 25
+        },
+        {
+          "alpha": 0.5,
+          "q": 0.1457,
+          "coverage": 0.8799,
+          "coverage_ci": [
+            0.8562,
+            0.9035
+          ],
+          "risk": 0.5672,
+          "risk_ci": [
+            0.4762,
+            0.6586
+          ],
+          "n_acc_true": 425,
+          "n_acc_false": 38
+        }
+      ],
+      "raw_conf": [
+        {
+          "alpha": 0.01,
+          "q": -6.9219,
+          "coverage": 0.0248,
+          "coverage_ci": [
+            0.0135,
+            0.0353
+          ],
+          "risk": 0.0299,
+          "risk_ci": [
+            0.0,
+            0.0513
+          ],
+          "n_acc_true": 12,
+          "n_acc_false": 2
+        },
+        {
+          "alpha": 0.05,
+          "q": -6.4375,
+          "coverage": 0.0663,
+          "coverage_ci": [
+            0.0497,
+            0.0822
+          ],
+          "risk": 0.0448,
+          "risk_ci": [
+            0.0,
+            0.075
+          ],
+          "n_acc_true": 32,
+          "n_acc_false": 3
+        },
+        {
+          "alpha": 0.1,
+          "q": -5.6719,
+          "coverage": 0.1967,
+          "coverage_ci": [
+            0.1689,
+            0.2244
+          ],
+          "risk": 0.0746,
+          "risk_ci": [
+            0.0227,
+            0.122
+          ],
+          "n_acc_true": 95,
+          "n_acc_false": 5
+        },
+        {
+          "alpha": 0.2,
+          "q": -4.1875,
+          "coverage": 0.499,
+          "coverage_ci": [
+            0.4647,
+            0.5353
+          ],
+          "risk": 0.2687,
+          "risk_ci": [
+            0.1818,
+            0.35
+          ],
+          "n_acc_true": 241,
+          "n_acc_false": 18
+        },
+        {
+          "alpha": 0.3,
+          "q": -3.7188,
+          "coverage": 0.5963,
+          "coverage_ci": [
+            0.5609,
+            0.6314
+          ],
+          "risk": 0.3284,
+          "risk_ci": [
+            0.2391,
+            0.4146
+          ],
+          "n_acc_true": 288,
+          "n_acc_false": 22
+        },
+        {
+          "alpha": 0.5,
+          "q": -2.4531,
+          "coverage": 0.7992,
+          "coverage_ci": [
+            0.7712,
+            0.8262
+          ],
+          "risk": 0.5224,
+          "risk_ci": [
+            0.4286,
+            0.6154
+          ],
+          "n_acc_true": 386,
+          "n_acc_false": 35
+        }
+      ]
+    },
+    "all": {
+      "scope": "all",
+      "n_conf_false": 78,
+      "n_eval_true": 692,
+      "n_eval_false": 120,
+      "operators_kept": [
+        "d_id:o",
+        "d_id:s",
+        "d_id:so",
+        "d_inv:o",
+        "d_inv:s",
+        "d_inv:so"
+      ],
+      "COVER_A(lam0)": [
+        {
+          "alpha": 0.01,
+          "q": -2.4664,
+          "coverage": 0.0694,
+          "coverage_ci": [
+            0.0544,
+            0.0831
+          ],
+          "risk": 0.025,
+          "risk_ci": [
+            0.0,
+            0.0417
+          ],
+          "n_acc_true": 48,
+          "n_acc_false": 3
+        },
+        {
+          "alpha": 0.05,
+          "q": -1.5738,
+          "coverage": 0.2775,
+          "coverage_ci": [
+            0.2511,
+            0.3039
+          ],
+          "risk": 0.1083,
+          "risk_ci": [
+            0.0658,
+            0.1486
+          ],
+          "n_acc_true": 192,
+          "n_acc_false": 13
+        },
+        {
+          "alpha": 0.1,
+          "q": -1.077,
+          "coverage": 0.4581,
+          "coverage_ci": [
+            0.4282,
+            0.4861
+          ],
+          "risk": 0.225,
+          "risk_ci": [
+            0.1643,
+            0.2821
+          ],
+          "n_acc_true": 317,
+          "n_acc_false": 27
+        },
+        {
+          "alpha": 0.2,
+          "q": -0.7051,
+          "coverage": 0.5882,
+          "coverage_ci": [
+            0.5595,
+            0.6161
+          ],
+          "risk": 0.2917,
+          "risk_ci": [
+            0.2254,
+            0.3521
+          ],
+          "n_acc_true": 407,
+          "n_acc_false": 35
+        },
+        {
+          "alpha": 0.3,
+          "q": -0.4867,
+          "coverage": 0.6445,
+          "coverage_ci": [
+            0.6155,
+            0.6705
+          ],
+          "risk": 0.35,
+          "risk_ci": [
+            0.2838,
+            0.4156
+          ],
+          "n_acc_true": 446,
+          "n_acc_false": 42
+        },
+        {
+          "alpha": 0.5,
+          "q": 0.1102,
+          "coverage": 0.8396,
+          "coverage_ci": [
+            0.8186,
+            0.86
+          ],
+          "risk": 0.5417,
+          "risk_ci": [
+            0.4737,
+            0.6111
+          ],
+          "n_acc_true": 581,
+          "n_acc_false": 65
+        }
+      ],
+      "raw_conf": [
+        {
+          "alpha": 0.01,
+          "q": -6.9219,
+          "coverage": 0.0188,
+          "coverage_ci": [
+            0.0112,
+            0.0259
+          ],
+          "risk": 0.0167,
+          "risk_ci": [
+            0.0,
+            0.0286
+          ],
+          "n_acc_true": 13,
+          "n_acc_false": 2
+        },
+        {
+          "alpha": 0.05,
+          "q": -6.4375,
+          "coverage": 0.0564,
+          "coverage_ci": [
+            0.044,
+            0.0694
+          ],
+          "risk": 0.0333,
+          "risk_ci": [
+            0.0123,
+            0.0548
+          ],
+          "n_acc_true": 39,
+          "n_acc_false": 4
+        },
+        {
+          "alpha": 0.1,
+          "q": -5.1719,
+          "coverage": 0.2616,
+          "coverage_ci": [
+            0.236,
+            0.286
+          ],
+          "risk": 0.1417,
+          "risk_ci": [
+            0.0909,
+            0.1892
+          ],
+          "n_acc_true": 181,
+          "n_acc_false": 17
+        },
+        {
+          "alpha": 0.2,
+          "q": -4.1875,
+          "coverage": 0.4682,
+          "coverage_ci": [
+            0.4396,
+            0.4976
+          ],
+          "risk": 0.2667,
+          "risk_ci": [
+            0.2027,
+            0.325
+          ],
+          "n_acc_true": 324,
+          "n_acc_false": 32
+        },
+        {
+          "alpha": 0.3,
+          "q": -3.6094,
+          "coverage": 0.5954,
+          "coverage_ci": [
+            0.5668,
+            0.6241
+          ],
+          "risk": 0.3167,
+          "risk_ci": [
+            0.2535,
+            0.3798
+          ],
+          "n_acc_true": 412,
+          "n_acc_false": 38
+        },
+        {
+          "alpha": 0.5,
+          "q": -2.3594,
+          "coverage": 0.7948,
+          "coverage_ci": [
+            0.7703,
+            0.8175
+          ],
+          "risk": 0.5417,
+          "risk_ci": [
+            0.4744,
+            0.6154
+          ],
+          "n_acc_true": 550,
+          "n_acc_false": 65
+        }
+      ]
+    },
+    "stratified_non-spatial": [
+      {
+        "stratum": "低",
+        "n_conf_false": 36,
+        "n_true": 142,
+        "n_false": 37,
+        "COVER_A(lam0)": {
+          "q": -0.4402,
+          "coverage": 0.3451,
+          "coverage_ci": [
+            0.2857,
+            0.4066
+          ],
+          "risk": 0.1622,
+          "risk_ci": [
+            0.0769,
+            0.25
+          ]
+        },
+        "raw_conf": {
+          "q": -2.9062,
+          "coverage": 0.1197,
+          "coverage_ci": [
+            0.0769,
+            0.1591
+          ],
+          "risk": 0.0811,
+          "risk_ci": [
+            0.0,
+            0.1364
+          ]
+        }
+      },
+      {
+        "stratum": "中",
+        "n_conf_false": 17,
+        "n_true": 159,
+        "n_false": 21,
+        "COVER_A(lam0)": {
+          "q": -2.1472,
+          "coverage": 0.0377,
+          "coverage_ci": [
+            0.0111,
+            0.06
+          ],
+          "risk": 0.0,
+          "risk_ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "raw_conf": {
+          "q": -4.6406,
+          "coverage": 0.0189,
+          "coverage_ci": [
+            0.0,
+            0.0312
+          ],
+          "risk": 0.0952,
+          "risk_ci": [
+            0.0,
+            0.1667
+          ]
+        }
+      },
+      {
+        "stratum": "高",
+        "n_conf_false": 10,
+        "n_true": 182,
+        "n_false": 9,
+        "COVER_A(lam0)": {
+          "q": -1.4178,
+          "coverage": 0.6703,
+          "coverage_ci": [
+            0.6161,
+            0.7241
+          ],
+          "risk": 0.3333,
+          "risk_ci": [
+            0.0,
+            0.6
+          ]
+        },
+        "raw_conf": {
+          "q": -6.9219,
+          "coverage": 0.0659,
+          "coverage_ci": [
+            0.04,
+            0.0917
+          ],
+          "risk": 0.2222,
+          "risk_ci": [
+            0.0,
+            0.4
+          ]
+        }
+      }
+    ]
+  }
+}
